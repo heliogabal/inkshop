@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Ignore the node modules folder (created by 'npm install').
 node_modules
 
@@ -42,4 +42,3 @@ xmlrpc.php
 /profiles
 /scripts
 /themes
->>>>>>> ac7267faf86da248eea7f81b23433933cae9fcaf
