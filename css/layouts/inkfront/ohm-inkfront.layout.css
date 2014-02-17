@@ -1,0 +1,29 @@
+/*******************************************************************************
+ * ohm-hero.layout.scss
+ *
+ * Additional, theme specific styles for the Hero layout.
+ ******************************************************************************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/inkfront\/ohm-inkfront\.layout\.scss}line{font-family:\0000310}}
+body {
+  background: transparent url('../../../images/diagonal.png?1390111245') left top repeat; }
+
+/* Header */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/inkfront\/ohm-inkfront\.layout\.scss}line{font-family:\0000315}}
+.l-header {
+  background-color: #52b1ea; }
+
+/* Content Area */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/inkfront\/ohm-inkfront\.layout\.scss}line{font-family:\0000320}}
+.l-highlighted-wrapper {
+  background: #fff; }
+
+/* Sidebars */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/inkfront\/ohm-inkfront\.layout\.scss}line{font-family:\0000326}}
+.l-region--sidebar-first,
+.l-region--sidebar-second {
+  background-color: #fff; }
+
+/* Footer */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/inkfront\/ohm-inkfront\.layout\.scss}line{font-family:\0000331}}
+.l-footer-wrapper {
+  background: #fff; }
