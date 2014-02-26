@@ -4,18 +4,18 @@
  * Styling of the "divine" layout demonstrating the golden rule and asymmetric
  * grids with Singularity.
  ******************************************************************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/divine\/divine\.layout\.scss}line{font-family:\0000326}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/divine\/divine\.layout\.scss}line{font-family:\0000326}}
 .l-page {
   width: 95%;
   max-width: 110em;
   margin: 0 auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/divine\/divine\.layout\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/divine\/divine\.layout\.scss}line{font-family:\0000333}}
 .l-header,
 .l-main {
   *zoom: 1;
   margin-bottom: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-1\.9\.3-p484\@omega\.inkshop\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/\.rvm\/gems\/ruby-1\.9\.3-p545\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
   .l-header:after,
   .l-main:after {
     content: "";
@@ -23,16 +23,16 @@
     clear: both; }
 
 /* Header Area */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/divine\/divine\.layout\.scss}line{font-family:\0000374}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/divine\/divine\.layout\.scss}line{font-family:\0000374}}
 .l-header {
   *zoom: 1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-1\.9\.3-p484\@omega\.inkshop\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/\.rvm\/gems\/ruby-1\.9\.3-p545\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
   .l-header:after {
     content: "";
     display: table;
     clear: both; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/divine\/divine\.layout\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/divine\/divine\.layout\.scss}line{font-family:\0000377}}
 .l-branding {
   width: 50.33557%;
   float: left;
@@ -40,7 +40,7 @@
   margin-left: 0%;
   clear: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/divine\/divine\.layout\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/divine\/divine\.layout\.scss}line{font-family:\0000380}}
 .l-region--header {
   width: 48.99329%;
   float: right;
@@ -48,12 +48,12 @@
   margin-right: 0;
   clear: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/divine\/divine\.layout\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/divine\/divine\.layout\.scss}line{font-family:\0000383}}
 .l-region--navigation {
   clear: both; }
 
 /* Content Area */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/divine\/divine\.layout\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/divine\/divine\.layout\.scss}line{font-family:\0000388}}
 .l-content {
   width: 50.33557%;
   float: left;
@@ -62,7 +62,7 @@
   clear: none; }
 
 /* Sidebars */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/divine\/divine\.layout\.scss}line{font-family:\0000395}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/divine\/divine\.layout\.scss}line{font-family:\0000395}}
 .has-one-sidebar .l-region--sidebar-first,
 .has-one-sidebar .l-region--sidebar-second {
   width: 48.99329%;
@@ -71,14 +71,14 @@
   margin-right: 0;
   clear: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/divine\/divine\.layout\.scss}line{font-family:\00003100}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/divine\/divine\.layout\.scss}line{font-family:\00003100}}
 .has-two-sidebars .l-region--sidebar-first {
   width: 30.20134%;
   float: left;
   margin-right: -100%;
   margin-left: 51.00671%;
   clear: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/divine\/divine\.layout\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/divine\/divine\.layout\.scss}line{font-family:\00003103}}
 .has-two-sidebars .l-region--sidebar-second {
   width: 18.12081%;
   float: right;

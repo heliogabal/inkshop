@@ -58,7 +58,7 @@ input.form-text {
   height: 29px;
   line-height: 29px;
   display: inline-block;
-  background: #0f7ad5;
+  background: #FFB900 !important;
   color: #fff;
   text-decoration: none;
   text-align: center;

@@ -18,7 +18,7 @@
     </div>
   </header>-->
 
-  <div id="header">
+  <div id="header" class="l-constrained">
     <!-- Skiplink-Navigation - ANFANG -->
     <div id="skipnavi">  <a title="zur Hauptnavigation springen" href="#nav_main" class="skip">Zur
       Hauptnavigation springen</a> <a title="zur Nebennavigation springen" href="#nav_sec" class="skip">Zur
@@ -26,8 +26,8 @@
       Inhalt springen</a>
     </div>
     <!-- Skiplink-Navigation - ENDE -->
-    <div id="logo">  <a class="logo" title="Zurück zur Startseite" href="https://inkota.de/index.php">
-        <img width="269" height="49" alt="Logo Inkota Netzwerk e.V." src="/sites/all/themes/inkshop/images/logo3.gif">
+    <div id="logo">  <a class="logo" title="Zurück zur Startseite" href="https://shop.inkota.de/index.php">
+        <img width="269" height="49" alt="Logo Inkota Netzwerk e.V." src="/profiles/inkota_shop/themes/inkshop/images/logo3.gif">
         </a>
     </div>
     <div id="extranavi">
@@ -41,7 +41,11 @@
       <ul>
         <li><a accesskey="P" class="presse" title="Presse (ALT+P)" href="https://inkota.de/presse/pressemitteilungen/">Presse</a></li>
         <li><a accesskey="K" class="kontakt" title="Kontakt (ALT+K)" href="https://inkota.de/kontakt/">Kontakt</a></li>
-        <li><a accesskey="W" class="warenkorb" title="Warenkorb (ALT+W)" href="https://inkota.de/cart">Warenkorb</a></li>
+        <li><?php
+		$block = module_invoke('commerce_cart', 'commerce_cart_block', 'cart');
+  		print render($block['content']);
+	    ?>
+	</li>
         </ul>
       <!--<div id="suchbox">
       <div class="tx-macinasearchbox-pi1">
@@ -59,25 +63,22 @@
     </div>-->
   </div>
     <!-- #nav_lang - ANFANG -->
-    <div id="nav_lang">
+    <!--<div id="nav_lang">
       <ul>
         <li><a accesskey="E" title="English (ALT+E)" href="https://inkota.de/english/">English</a></li>
         <li><a accesskey="O" title="Español (ALT+O)" href="https://inkota.de/espanol/">Español</a></li>
         <li><a accesskey="R" title="Português (ALT+R)" href="https://inkota.de/portugues/">Português</a></li>
       </ul>
-    </div>
+    </div>-->
     <!-- #nav_lang - ENDE -->
-    <div class="header_container">
-      <div id="headerimage"><img border="0" width="800" height="199" alt="" src="/sites/all/themes/inkshop/images/material.jpg"></div>
-      <div id="fahne"><img alt="Inkota e.V." src="/sites/all/themes/inkshop/images/fahne3.gif"></div>
-      <!-- #nav_main - ANFANG -->
+    <!--<div class="header_container">
+      <div id="headerimage"><img border="0" width="800" height="199" alt="" src="/profiles/inkota_shop/themes/inkshop/images/material.jpg"></div>
+      <div id="fahne"><img alt="Inkota e.V." src="/profiles/inkota_shop/themes/inkshop/images/fahne3.gif"></div>
+
       <div id="mainnavi"><ul><li><a accesskey="T" title="Start (ALT+T)" href="https://inkota.de/start/">Start</a></li><li><a accesskey="B" title="Über uns (ALT+B)" href="https://inkota.de/ueber-uns/">Über uns</a></li><li><a accesskey="J" title="Projekte (ALT+J)" href="https://inkota.de/projekte/grundsaetze/">Projekte</a></li><li><a accesskey="H" title="Themen &amp; Kampagnen (ALT+H)" href="https://inkota.de/themen-kampagnen/">Themen &amp; Kampagnen</a></li><li class="last"><a accesskey="I" class="current" title=" (ALT+I)" href="/">Material</a></li></ul></div>
-      <!-- #nav_main - ENDE -->
-    </div>
+
+    </div>-->
   </div>
-
-  <?php print render($page['hero']); ?>
-
   <?php if (!empty($page['highlighted'])): ?>
     <div class="l-highlighted-wrapper">
       <?php print render($page['highlighted']); ?>
@@ -87,10 +88,18 @@
   <div class="l-main l-constrained">
     <a id="main-content"></a>
     <?php print render($tabs); ?>
-    <?php print $breadcrumb; ?>
     <?php print $messages; ?>
     <?php print render($page['help']); ?>
-
+    <?php if (!empty($page['neu'])): ?>
+    <div class="neu">
+      <?php print render($page['neu']); ?>
+    <div>
+  <?php endif; ?>
+  <?php if (!empty($page['neu'])): ?>
+    <div class="meistgekauft">
+      <?php print render($page['meistgekauft']); ?>
+    <div>
+  <?php endif; ?>
     <div class="l-content" role="main">
       <?php print render($title_prefix); ?>
       <?php if ($title): ?>

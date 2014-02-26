@@ -1,18 +1,17 @@
-/* INKOTA Header */
+/* INKOTA Header
 .header_container {
     clear: both;
     height: 281px;
     padding: 4px 0 0;
-}
+} */
 #header * {
     -moz-box-sizing: content-box;
     box-sizing: content-box;
 }
 #header {
-    background: url("../images/headerback.jpg") no-repeat scroll left top #FFFFFF;
-    height: 341px;
+    /*background: url("../images/headerback.jpg") no-repeat scroll left top #FFFFFF;*/
+    height: 80px;
     position: relative;
-    width: 1000px;
     margin: 0 auto;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
@@ -20,14 +19,14 @@
 #header img {
     float: left;
 }
-#headerimage {
+/*#headerimage {
     margin: 0 0 0 100px;
-}
+}*/
 #logo {
     float: left;
     height: 66px;
     margin: 0;
-    padding: 20px 0 0;
+    padding: 20px 0 0 1em;
     width: 306px;
 }
 #extranavi {
@@ -178,7 +177,7 @@ input.such_button {
     font-size: 0.7em;
     list-style: none outside none;
     margin: 12px 0 0 1px;
-    padding: 0;
+    padding: 0 1em 0 0;
 }
 #nav_lang ul li {
     padding: 2px 0 0;
@@ -205,7 +204,7 @@ input.such_button {
     position: absolute;
     width: 20em;
 }
-#fahne {
+/*#fahne {
     left: 840px;
     position: absolute;
     top: 105px;
@@ -260,7 +259,7 @@ input.such_button {
     padding: 15px 0 0;
     text-decoration: none;
     width: 160px;
-}
+}*/
 
 .pane-commercebox-wishlist, .block--commercebox-base-theme-cb-cart{
     float: right;

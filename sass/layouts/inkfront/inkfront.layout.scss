@@ -1,7 +1,7 @@
 /*******************************************************************************
  * hero.layout.scss
  *
- * Styles for the Hero layout.
+ * Styles for the Inkota Frontsite layout.
  ******************************************************************************/
 @import "compass";
 @import "breakpoint";
@@ -12,7 +12,7 @@
 
 .l-constrained {
   width: 95%;
-  max-width: 1000px;
+  /*max-width: 1000px;*/
   margin: 0 auto;
   @include pie-clearfix;
 }
@@ -75,11 +75,11 @@
   .has-two-sidebars,
   .has-one-sidebar {
     .l-content {
-      @include grid-span(8, 1);
+      @include grid-span(9, 4);
     }
     .l-region--sidebar-first,
     .l-region--sidebar-second {
-      @include grid-span(4, 9);
+      @include grid-span(3, 1);
       clear: right;
     }
   }
@@ -93,20 +93,20 @@
   /* Sidebars */
   .has-one-sidebar {
     .l-content {
-      @include grid-span(8, 1);
+      @include grid-span(9, 4);
     }
     .l-region--sidebar-first {
-      @include grid-span(4, 9);
+      @include grid-span(3, 1);
       clear: none;
     }
   }
   .has-two-sidebars {
     .l-content {
-      @include grid-span(6, 1);
+      @include grid-span(6, 4);
     }
     .l-region--sidebar-first,
     .l-region--sidebar-second {
-      @include grid-span(3, 7);
+      @include grid-span(3, 1);
       clear: none;
     }
     .l-region--sidebar-second {

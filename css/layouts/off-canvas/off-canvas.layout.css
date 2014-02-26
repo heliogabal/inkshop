@@ -6,7 +6,7 @@
 /*******************************************************************************
  * Off canvas portion of styling for the Off Canvas layout.
  ******************************************************************************/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/off-canvas\/_off-canvas\.scss}line{font-family:\000036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/off-canvas\/_off-canvas\.scss}line{font-family:\000036}}
 .l-off-canvas-show,
 .l-off-canvas-hide {
   display: none;
@@ -20,41 +20,41 @@
   overflow: hidden;
   text-align: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/off-canvas\/_off-canvas\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/off-canvas\/_off-canvas\.scss}line{font-family:\0000316}}
 .l-off-canvas-show {
   background: transparent url("../../../layouts/off-canvas/assets/menu.png") center center no-repeat; }
 
 @media (min-width: 0) and (max-width: 44em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/off-canvas\/_off-canvas\.scss}line{font-family:\0000322}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/off-canvas\/_off-canvas\.scss}line{font-family:\0000322}}
   .no-js .l-off-canvas {
     position: relative;
     min-height: 24px;
     padding-right: 24px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/off-canvas\/_off-canvas\.scss}line{font-family:\0000327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/off-canvas\/_off-canvas\.scss}line{font-family:\0000327}}
     .no-js .l-off-canvas .l-region {
       position: relative;
       overflow: hidden; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/off-canvas\/_off-canvas\.scss}line{font-family:\0000331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/off-canvas\/_off-canvas\.scss}line{font-family:\0000331}}
     .no-js .l-off-canvas .l-off-canvas-hide {
       display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/off-canvas\/_off-canvas\.scss}line{font-family:\0000335}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/off-canvas\/_off-canvas\.scss}line{font-family:\0000335}}
     .no-js .l-off-canvas:not(:target) .l-region {
       min-height: 0;
       height: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/off-canvas\/_off-canvas\.scss}line{font-family:\0000339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/off-canvas\/_off-canvas\.scss}line{font-family:\0000339}}
     .no-js .l-off-canvas:not(:target) .l-off-canvas-show {
       display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/off-canvas\/_off-canvas\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/off-canvas\/_off-canvas\.scss}line{font-family:\0000342}}
     .no-js .l-off-canvas:not(:target) .l-off-canvas-hide {
       display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/off-canvas\/_off-canvas\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/off-canvas\/_off-canvas\.scss}line{font-family:\0000349}}
   .js .l-page {
     position: relative;
     height: 100%;
     padding-left: 12%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/off-canvas\/_off-canvas\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/off-canvas\/_off-canvas\.scss}line{font-family:\0000354}}
   .js .l-off-canvas {
     position: absolute;
     z-index: 99;
@@ -68,20 +68,20 @@
     -o-transition: left 0.2s ease-in;
     transition: left 0.2s ease-in;
     cursor: pointer; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/off-canvas\/_off-canvas\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/off-canvas\/_off-canvas\.scss}line{font-family:\0000366}}
     .js .l-off-canvas.is-visible {
       left: 0;
       cursor: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/off-canvas\/_off-canvas\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/off-canvas\/_off-canvas\.scss}line{font-family:\0000370}}
       .js .l-off-canvas.is-visible .l-off-canvas-show {
         display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/off-canvas\/_off-canvas\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/off-canvas\/_off-canvas\.scss}line{font-family:\0000373}}
       .js .l-off-canvas.is-visible .l-off-canvas-hide {
         display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/off-canvas\/_off-canvas\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/off-canvas\/_off-canvas\.scss}line{font-family:\0000377}}
     .js .l-off-canvas .l-off-canvas-show {
       display: block; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\0000332}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\0000332}}
 .l-header,
 .l-main,
 .l-footer {
@@ -94,14 +94,14 @@
   margin-right: auto;
   *zoom: 1;
   margin-bottom: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-1\.9\.3-p484\@omega\.inkshop\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/\.rvm\/gems\/ruby-1\.9\.3-p545\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
   .l-header:after,
   .l-main:after,
   .l-footer:after {
     content: "";
     display: table;
     clear: both; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/usr\/local\/rvm\/gems\/ruby-1\.9\.3-p484\@omega\.inkshop\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/\.rvm\/gems\/ruby-1\.9\.3-p545\/gems\/compass-0\.12\.2\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000338}}
   .l-header:after,
   .l-main:after,
   .l-footer:after {
@@ -109,26 +109,26 @@
     display: table;
     clear: both; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\0000338}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\0000338}}
 .l-off-canvas {
   clear: both; }
 
 @media (min-width: 44em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\0000347}}
   .l-header,
   .l-main,
   .l-footer {
     max-width: 1080px;
     _width: 1080px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\0000351}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\0000351}}
   .l-branding {
     width: 32.20339%;
     float: left;
     margin-right: 1.69492%;
     display: inline; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\0000354}}
   .l-region--header {
     width: 66.10169%;
     float: right;
@@ -136,11 +136,11 @@
     *margin-left: -1em;
     display: inline; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\0000357}}
   .l-region--navigation {
     clear: both; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\0000364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\0000364}}
   .has-sidebar-first .l-content,
   .has-sidebar-second .l-content,
   .has-two-sidebars .l-content {
@@ -148,7 +148,7 @@
     float: left;
     margin-right: 1.69492%;
     display: inline; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\0000368}}
   .has-sidebar-first .l-region--sidebar-first,
   .has-sidebar-first .l-region--sidebar-second,
   .has-sidebar-second .l-region--sidebar-first,
@@ -160,20 +160,20 @@
     margin-right: 0;
     *margin-left: -1em;
     display: inline; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\0000371}}
   .has-sidebar-first .l-region--sidebar-second,
   .has-sidebar-second .l-region--sidebar-second,
   .has-two-sidebars .l-region--sidebar-second {
     clear: right; } }
 @media (min-width: 70em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\0000380}}
   .l-branding {
     width: 36.70886%;
     float: left;
     margin-right: 1.26582%;
     display: inline; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\0000383}}
   .l-region--header {
     width: 62.02532%;
     float: right;
@@ -181,27 +181,27 @@
     *margin-left: -1em;
     display: inline; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\0000388}}
   .has-sidebar-first .l-content {
     width: 74.68354%;
     float: right;
     margin-right: 0;
     *margin-left: -1em;
     display: inline; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\0000391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\0000391}}
   .has-sidebar-first .l-region--sidebar-first {
     width: 24.05063%;
     float: left;
     margin-right: 1.26582%;
     display: inline; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\0000396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\0000396}}
   .has-sidebar-second .l-content {
     width: 74.68354%;
     float: left;
     margin-right: 1.26582%;
     display: inline; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\0000399}}
   .has-sidebar-second .l-region--sidebar-second {
     width: 24.05063%;
     float: right;
@@ -210,24 +210,24 @@
     display: inline;
     clear: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\00003106}}
   .has-two-sidebars .l-content {
     width: 49.36709%;
     float: left;
     margin-right: 1.26582%;
     display: inline;
     margin-left: 25.31646%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\00003111}}
   .has-two-sidebars .l-region--sidebar-first,
   .has-two-sidebars .l-region--sidebar-second {
     width: 24.05063%;
     float: left;
     margin-right: 1.26582%;
     display: inline; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\00003114}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\00003114}}
   .has-two-sidebars .l-region--sidebar-first {
     margin-left: -75.94937%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.25\.1-1\.1\/sites\/all\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/data\/disk\/o1\/static\/inkota-shop-7\.26\.1-dev\/profiles\/inkota_shop\/themes\/inkshop\/sass\/layouts\/off-canvas\/off-canvas\.layout\.scss}line{font-family:\00003117}}
   .has-two-sidebars .l-region--sidebar-second {
     float: right;
     margin-right: 0;

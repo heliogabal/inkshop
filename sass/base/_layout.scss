@@ -58,18 +58,19 @@ input.form-text {
   height: 29px;
   line-height: 29px;
   display: inline-block;
-  background: #0f7ad5;
-  color: #fff;
+  background: #FFB900;
+  color: #292929;
   text-decoration: none;
   text-align: center;
   padding: 0 20px;
   cursor: pointer;
   border: none;
+  font-weight: bold;
 }
 .form-submit:hover {
   animation: myfirst 1s;
   -webkit-animation: myfirst1 1s;
-  background: #9ee7ff;
+  background: #FACB4E;
   color: #292929;
 }
 #search-block-form input.form-text {
@@ -250,22 +251,22 @@ input.form-text {
 }
 @keyframes myfirst{
   from {
-    background: #9ee7ff;
+    background: #FFB800;
     color: #292929;
   }
   to {
-    background: #0f7ad5;
-    color: #fff;
+    background: #FFD360;
+    color: #292929;
   }
 }
 @-webkit-keyframes myfirst {
   from {
-    background: #9ee7ff;
+    background: #FFB800;
     color: #292929;
   }
   to {
-    background: #0f7ad5;
-    color: #fff;
+    background: #FFD360;
+    color: #292929;
   }
 }
 .view-commercebox-shopping-cart-block .line-item-summary-checkout a:hover {
