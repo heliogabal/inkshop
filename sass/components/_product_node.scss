@@ -1,0 +1,151 @@
+.label-above {
+  font-weight: 600;
+}
+.node-type-product-display .l-content {
+  padding: 1em;
+  @include breakpoint($desk) {
+    padding: 2em;
+  }
+  /*margin: 0 0 1em 0; interferes with sidebars*/
+  position: relative;
+  /*background: #EBE9E7;*/
+  border: 1px solid $light-grey;
+  @include border-radius($default-border-radius);
+  /*@include single-box-shadow($default-box-shadow-color, 0, 0, $default-box-shadow-blur);*/
+}
+.node--product-display--full {
+  span.new {
+    padding: 10px 100px;
+    right: -70px;
+    top: 30px;
+    border: 0;
+    box-shadow: none;
+}
+  .group-header {
+      .field-name-field-product-subtitle,
+      .field--name-field-product-subtitle {
+      font-weight: 600;
+      font-size: 1em;
+    }
+  }
+  .group-left {
+    float: left;
+    width: 70%;
+    padding-right: 4em;
+    .field-name-field-product-image {
+      margin-top: 1.5em;
+    }
+  }
+  .group-right {
+    float: left;
+    width: 30%;
+    margin-top: 1em;
+    position: relative;
+    .field-name-field-product-pdf {
+      padding-bottom: 1em;
+    }
+    .field-name-field-pd-category {
+      padding-bottom: .5em;
+    }
+    .field.field-name-field-pd-type {
+      padding-bottom: 0.5em;
+    }
+    .field-name-commerce-price {
+        font-size: 1.6em;
+        margin: .5em 2em 0 0;
+        line-height: 1;
+        position: static;
+        margin: 0;
+        padding: 3em 0 .6em;
+      }
+      .field.field-name-field-product-tax {
+        padding-bottom: 0;
+        font-size: .8em;
+        float: left;
+        clear: both;
+        position: static;
+      }
+      .field-name-link-zzgl-versandkosten {
+          font-size: 0.8em;
+          padding: 0 0 1em;
+          float: left;
+          clear: both;
+          position: static;
+          p {
+            margin: 0;
+          }
+      }
+      .commerce-add-to-cart {
+        position: absolute;
+        right: 1em;
+        padding: 3.5em 0 2.5em;
+        margin: 0;
+        .form-submit {
+          float: none;
+          position: static;
+        }
+      }
+      .field-name-field-commerce-product,
+      .field--name-field-commerce-product,
+      .node-type-product-display .commerce-add-to-cart .form-submit {
+        margin: 2em -0.5em 2em 0;
+        box-shadow: 3px 2px 4px;
+      }
+      .commerce-add-to-cart input.wishlist,
+      .in-wishlist {
+        position: absolute !important;
+        bottom: .8em !important;
+        right: 0;
+        margin: 0;
+      }
+  }
+  .group-footer {
+      float: left;
+      height: 5em;
+      width: 100%;
+      .field-name-commerce-price {
+        font-size: 1.6em;
+        margin: .5em 2em 0 0;
+        line-height: 1;
+        float: left;
+        position: static;
+        margin: 0;
+        padding: 1.2em 2em 0 0;
+      }
+      .field.field-name-field-product-tax {
+        padding-bottom: 3.1em;
+        font-size: .8em;
+      }
+      .field-name-link-zzgl-versandkosten {
+          font-size: 0.8em;
+          padding: 0 0 1em;
+      }
+      .commerce-add-to-cart {
+        float: left;
+        padding: 1em 0;
+        .form-submit {
+          float: none;
+          position: static;
+        }
+      }
+      .field-name-field-commerce-product,
+      .field--name-field-commerce-product,
+      .node-type-product-display .commerce-add-to-cart .form-submit {
+        margin: 2em -0.5em 2em 0;
+        box-shadow: 3px 2px 4px;
+      }
+  }
+  /*.field-name-field-pd-type,
+  .field--name-field-pd-type,
+  .field-name-field-pd-category,
+  .field--name-field-pd-category,
+   {
+    float: left;
+    display: inline-block;
+    margin-bottom: 3em;
+  }*/
+  .field--name-field-product-image {
+    float: left;
+    margin: 1em 1em 1em 0;
+  }
+}

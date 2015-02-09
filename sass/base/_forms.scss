@@ -1,0 +1,4 @@
+input.form-text {
+  border: 1px solid $light-grey;
+  @include border-radius($default-border-radius);
+}

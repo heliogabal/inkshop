@@ -1,0 +1,58 @@
+body {
+  /*font: 0.875em/1.5 Ubuntu, Arial, sans-serif;*/
+  color: $black;
+}
+
+h1 {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+h2 {
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: .5em;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.label-inline {
+  display: inline;
+  font-weight: 600;
+}
+
+a:hover {
+  color: $orange;
+}
+
+strong, b {
+  font-weight: 600;
+}
+em, i {
+  font-variant: italic;
+}
+
+.l-content {
+  /*@include hyphens(auto);
+  -ms-hyphenate-limit-lines: 2;
+  -webkit-hyphenate-limit-lines: 2;
+  -moz-hyphenate-limit-lines: 2;
+  hyphenate-limit-lines: 2;
+  -ms-hyphenate-limit-chars: 6 3 2;
+  -wekit-hyphenate-limit-chars: 6 3 2;
+  -moz-hyphenate-limit-chars: 6 3 2;
+  hyphenate-limit-chars: 6 3 2;
+  -ms-hyphenate-limit-zone: 40px;
+  -webkit-hyphenate-limit-zone: 40px;
+  -moz-hyphenate-limit-zone: 40px;
+  hyphenate-limit-zone: 40px;*/
+  p {
+    line-height: 1.4375;
+    @include breakpoint($tab) {
+      line-height: 1.5;
+    }
+    @include breakpoint($desk) {
+      line-height: 1.5625;
+    }
+  }
+}
+

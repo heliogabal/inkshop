@@ -1,0 +1,67 @@
+#block-system-main-menu {
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 1em 0 0 0;
+    li {
+      display: inline-block;
+      a {
+        text-decoration: none;
+        color: $black;
+        padding: .5em 1em .5em 0;
+        display: block;
+      }
+      a:hover {
+          text-decoration: underline;
+        }
+    }
+  }
+}
+
+#block-menu-menu-benutzer-menu {
+  ul {
+    padding: 0;
+    margin: 1em 0 0 0;
+    @include breakpoint($tab) {
+      text-align: right;
+    }
+    li {
+      display: inline-block;
+      a {
+        text-decoration: none;
+        color: $black;
+        padding: .5em 0;
+        margin: 0 1em;
+        display: block;
+        border-bottom: 5px solid transparent;
+      }
+      a:hover,a:focus, a:active, a.active {
+          text-decoration: none;
+          border-bottom: 5px solid $black;
+        }
+    }
+  }
+}
+nav.block--menu-menu-pflichtmenu {
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    li {
+      display: inline-block;
+      a {
+        text-decoration: none;
+        color: $black;
+        padding: 0.5em 0;
+        margin: 0 1em;
+        display: block;
+        border-top: 5px solid transparent;
+      }
+      a:hover, a:focus, a:active, a.active {
+        text-decoration: none;
+        border-top: 5px solid $black;
+        }
+    }
+  }
+}

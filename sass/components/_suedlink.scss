@@ -1,0 +1,54 @@
+.view-suedlink-abo {
+  article {
+    @include pie-clearfix;
+  }
+  header h2.node__title {
+    margin-top: 1em;
+    clear: both;
+  }
+  .commerce-add-to-cart .form-submit {
+    @include border-radius($default-border-radius);
+  }
+  @include layout(12) {
+    .field--name-body {
+      /*float: left;
+      width: 60%;
+      margin-right: 1em;
+      min-height: 300px;*/
+      @include grid-span(7, 1);
+    }
+    .commerce-product-field-field-rec-description {
+      @include grid-span(5, 8);
+    }
+    .commerce-product-field-commerce-price {
+      /*float: left;
+      margin: 1em 1em 0;*/
+      @include isolation-span(1, 8, both);
+      padding-right: 0;
+      margin-top: 0;
+      .field--name-commerce-price {
+        padding: 0;
+      }
+    }
+    .commerce-product-field-field-rec-description {
+      /*width: 33%;*/
+      ul {
+        padding-left: 1em;
+      }
+    }
+    .field--name-field-product {
+      /*float: left;
+      margin: 1em;*/
+      @include grid-span(3, 9);
+    }
+    .field--name-commerce-price {
+      bottom: 0;
+      clear: none;
+      float: none;
+      font-size: 1.2em;
+      font-weight: bold;
+      padding: 1em 1em 1em 0;
+      position: static;
+    }
+  }
+}

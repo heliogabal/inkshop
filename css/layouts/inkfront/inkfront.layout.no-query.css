@@ -1,0 +1,203 @@
+/*******************************************************************************
+ * inkfront.layout.scss
+ *
+ * Styles for the Inkota Frontsite layout.
+ ******************************************************************************/
+/* INKOTA Colors */
+/* #ffb900 */
+/* line 13, ../../../sass/layouts/inkfront/inkfront.layout.scss */
+.l-constrained, .l-region--highlighted, .l-region--footer {
+  width: 95%;
+  margin: 0 auto;
+  position: relative;
+  *zoom: 1; }
+  /* line 38, ../../../../../../../../../../../../home/o1.ftp/.rvm/gems/ruby-2.1.2/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .l-constrained:after, .l-region--highlighted:after, .l-region--footer:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+/* Header */
+/* line 20, ../../../sass/layouts/inkfront/inkfront.layout.scss */
+#logo {
+  padding-top: 20px; }
+
+/* Content Area */
+/* line 24, ../../../sass/layouts/inkfront/inkfront.layout.scss */
+.l-highlighted-wrapper {
+  padding: 18px 0; }
+
+/* line 30, ../../../sass/layouts/inkfront/inkfront.layout.scss */
+.l-region--help {
+  margin-bottom: 18px; }
+
+/* line 33, ../../../sass/layouts/inkfront/inkfront.layout.scss */
+.l-main {
+  margin-top: 36px;
+  margin-bottom: 36px; }
+
+/* Content */
+/* line 38, ../../../sass/layouts/inkfront/inkfront.layout.scss */
+.l-content {
+  background: white;
+  padding: 0 1em 1em;
+  overflow: hidden; }
+
+/* Sidebars */
+/* line 46, ../../../sass/layouts/inkfront/inkfront.layout.scss */
+.l-region--sidebar-first,
+.l-region--sidebar-second {
+  /*padding: $vert-spacing-unit $horz-spacing-unit;*/ }
+
+/* Footer */
+/* line 55, ../../../sass/layouts/inkfront/inkfront.layout.scss */
+aside {
+  overflow: hidden;
+  margin-bottom: 1em; }
+  /* line 58, ../../../sass/layouts/inkfront/inkfront.layout.scss */
+  aside .block--facetapi {
+    float: left;
+    width: 32%;
+    margin-right: 1.333%; }
+
+/* line 66, ../../../sass/layouts/inkfront/inkfront.layout.scss */
+body {
+  /*font-size: 1.2em;*/ }
+
+/* line 69, ../../../sass/layouts/inkfront/inkfront.layout.scss */
+.l-constrained, .l-region--highlighted, .l-region--footer {
+  width: 98%; }
+
+/* Header */
+  /*#logo {
+    float: left;
+    height: 66px;
+    margin: 0;
+    padding: 20px 0 0 0;
+    width: 306px;
+}*/
+/* line 80, ../../../sass/layouts/inkfront/inkfront.layout.scss */
+#logo {
+  width: 23.94366%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0%;
+  clear: none; }
+
+/* line 83, ../../../sass/layouts/inkfront/inkfront.layout.scss */
+.l-region--navigation {
+  width: 74.64789%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+  /* line 85, ../../../sass/layouts/inkfront/inkfront.layout.scss */
+  .l-region--navigation .block--views-shopping-cart-block {
+    width: 32.39437%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none;
+    margin-top: 1.2em; }
+  /* line 89, ../../../sass/layouts/inkfront/inkfront.layout.scss */
+  .l-region--navigation .block--menu-menu-benutzer-menu {
+    width: 66.19718%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0%;
+    clear: none;
+    margin-top: 1.2em; }
+
+/* Sidebars */
+/* line 97, ../../../sass/layouts/inkfront/inkfront.layout.scss */
+.has-two-sidebars .l-content,
+.has-one-sidebar .l-content {
+  width: 83.09859%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+/* line 101, ../../../sass/layouts/inkfront/inkfront.layout.scss */
+.has-two-sidebars .l-region--sidebar-first,
+.has-two-sidebars .l-region--sidebar-second,
+.has-one-sidebar .l-region--sidebar-first,
+.has-one-sidebar .l-region--sidebar-second {
+  width: 15.49296%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0%;
+  clear: none;
+  /*clear: right;*/
+  clear: both; }
+/* line 106, ../../../sass/layouts/inkfront/inkfront.layout.scss */
+.has-two-sidebars aside,
+.has-one-sidebar aside {
+  float: left; }
+  /* line 108, ../../../sass/layouts/inkfront/inkfront.layout.scss */
+  .has-two-sidebars aside .block--facetapi,
+  .has-one-sidebar aside .block--facetapi {
+    float: none;
+    width: 100%;
+    margin-right: 0; }
+
+/* Sidebars */
+/* line 121, ../../../sass/layouts/inkfront/inkfront.layout.scss */
+.has-one-sidebar .l-content {
+  width: 83.09859%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+/* line 124, ../../../sass/layouts/inkfront/inkfront.layout.scss */
+.has-one-sidebar .l-region--sidebar-first {
+  width: 15.49296%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0%;
+  clear: none;
+  clear: none; }
+
+/* line 130, ../../../sass/layouts/inkfront/inkfront.layout.scss */
+.has-two-sidebars .l-content {
+  width: 66.19718%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 16.90141%;
+  clear: none; }
+/* line 134, ../../../sass/layouts/inkfront/inkfront.layout.scss */
+.has-two-sidebars .l-region--sidebar-first,
+.has-two-sidebars .l-region--sidebar-second {
+  width: 15.49296%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0%;
+  clear: none;
+  clear: none; }
+/* line 138, ../../../sass/layouts/inkfront/inkfront.layout.scss */
+.has-two-sidebars .l-region--sidebar-second {
+  width: 15.49296%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
+/* line 143, ../../../sass/layouts/inkfront/inkfront.layout.scss */
+.l-region--footer .block--menu-menu-pflichtmenu {
+  width: 83.09859%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0%;
+  clear: none; }
+/* line 146, ../../../sass/layouts/inkfront/inkfront.layout.scss */
+.l-region--footer .block--follow-site {
+  width: 15.49296%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
+/* line 154, ../../../sass/layouts/inkfront/inkfront.layout.scss */
+.l-constrained, .l-region--highlighted, .l-region--footer {
+  width: 80%; }
+
+/* Sticky Footer */

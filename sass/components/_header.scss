@@ -1,0 +1,35 @@
+.pane-commercebox-wishlist, .block--commercebox-base-theme-cb-cart{
+    float: right;
+    position: relative;
+}
+.pane-commercebox-wishlist .pane-content, .block--commercebox-base-theme-cb-cart .block__content {
+    background: none repeat scroll 0 0 #FFFFFF;
+    box-shadow: -1px 3px 5px rgba(103, 180, 230, 0.5);
+    display: none;
+    left: 20px;
+    padding: 20px;
+    position: absolute;
+    right: auto;
+    width: 380px;
+    z-index: 1000;
+}
+.block--commercebox-base-theme-cb-cart .block__content {
+    left: auto;
+    right: 0;
+}
+.pane-commercebox-wishlist h2, .block--commercebox-base-theme-cb-cart h2, .block-commerce-product-comparison h2 {
+    background: url("/sites/all/themes/cb/images/subheader-icons.png") no-repeat scroll 10px 12px rgba(0, 0, 0, 0);
+    color: #000000;
+    cursor: pointer;
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 40px;
+    margin: 0 0 0 20px;
+    padding: 0 10px 0 32px;
+    text-decoration: underline;
+}
+
+.block--commercebox-base-theme-cb-cart h2 {
+    background-position: 10px -71px;
+}

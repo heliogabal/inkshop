@@ -1,0 +1,10 @@
+.porto {
+  width: 480px;
+  margin-bottom: 1em;
+  tr:nth-child(odd) {
+    background: $light-orange;
+  }
+  tr:nth-child(even) {
+    background: $orange;
+  }
+}
