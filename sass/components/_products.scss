@@ -6,6 +6,12 @@ h2.block__title {
     color: $black;
     padding: .3em .5em;
     @include border-top-radius($default-border-radius);
+    a {
+      display: block;
+    }
+    a:hover {
+      color: #fff;
+    }
 }
 span.file-size {
   display: none;

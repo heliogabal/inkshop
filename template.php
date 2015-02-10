@@ -6,7 +6,7 @@
  * inkshop theme.
  */
 
-function inkshop_theme_form_alter(&$form, &$form_state, $form_id) {
+function inkshop_form_alter(&$form, &$form_state, $form_id) {
   switch($form_id) {
     case 'commerce_checkout_form_checkout' :
       $form['checkout_donate']['checkout_donate']['commerce_donate_amount']['und']['#options'] = array(
@@ -22,7 +22,7 @@ function inkshop_theme_form_alter(&$form, &$form_state, $form_id) {
 }
 
 
-function inkshop_theme_follow_link($variables) {
+function inkshop_follow_link($variables) {
   $link = $variables['link'];
   $title = $variables['title'];
   $classes = array();
@@ -40,7 +40,7 @@ function inkshop_theme_follow_link($variables) {
   return l($title, $link->path, $link->options) . "\n";
 }
 
-function inkshop_theme_preprocess_commerce_checkout_review(&$variables) {
+function inkshop_preprocess_commerce_checkout_review(&$variables) {
   $panes = array();
   foreach ($variables['form']['#data'] as $pane_id => $data) {
     $panes[$pane_id] = array(
@@ -50,7 +50,7 @@ function inkshop_theme_preprocess_commerce_checkout_review(&$variables) {
   }
   $variables['panes'] = $panes;
 }
-function inkshop_theme_preprocess_html(&$variables) {
+function inkshop_preprocess_html(&$variables) {
 // Add information about the number of sidebars.
   if (!empty($variables['page']['sidebar_first']) && !empty($variables['page']['sidebar_second'])) {
     $variables['classes_array'][] = 'has-two-sidebars';
