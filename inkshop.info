@@ -23,13 +23,13 @@ scripts[] = js/main.js
 ; ========================================
 ; Regions
 ; ========================================
-regions[branding] = Branding
+;regions[branding] = Branding
 regions[navigation] = Navigation bar
-regions[header] = Header
+;regions[header] = Header
 ;regions[neu] = neu
 ;regions[meistgekauft] = meistgekauft
 ;regions[hero] = Hero
-regions[highlighted] = Highlighted
+;regions[highlighted] = Highlighted
 regions[help] = Help
 regions[content] = Content
 regions[sidebar_first] = First sidebar
