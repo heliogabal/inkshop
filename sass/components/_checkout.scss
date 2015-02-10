@@ -125,8 +125,8 @@ ol.commerce-checkout-progress {
     @include border-radius($default-border-radius);
     margin: 1em 0 0 0;
     legend {
-      background: none repeat scroll 0 0 $orange;
-      border: 0 none;
+      background: $orange;
+      border: 0;
       @include border-radius($default-border-radius);
       color: $black;
       font-weight: bold;
@@ -211,7 +211,8 @@ ol.commerce-checkout-progress {
 
 .pane.account,
 .pane.customer_profile_shipping,
-.pane.customer_profile_billing {
+.pane.customer_profile_billing,
+.pane.commerce_checkout_pane_payment {
     border: 1px solid $ink-grey;
     @include border-radius($default-border-radius);
     float: left;

@@ -40,6 +40,10 @@ input.form-text {
   -o-border-radius: 2px;
   border-radius: 2px; }
 
+/* line 5, ../sass/base/_forms.scss */
+label.error {
+  color: #aa0000; }
+
 /* line 1, ../sass/base/_layout.scss */
 body {
   font-size: 100.01%;
@@ -937,8 +941,8 @@ ol.commerce-checkout-progress {
   margin: 1em 0 0 0; }
   /* line 127, ../sass/components/_checkout.scss */
   .page-checkout fieldset legend {
-    background: none repeat scroll 0 0 #fbb900;
-    border: 0 none;
+    background: #fbb900;
+    border: 0;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
@@ -1018,10 +1022,11 @@ ol.commerce-checkout-progress {
     float: right; } }
 
 /* Checkout Review Pane */
-/* line 214, ../sass/components/_checkout.scss */
+/* line 215, ../sass/components/_checkout.scss */
 .pane.account,
 .pane.customer_profile_shipping,
-.pane.customer_profile_billing {
+.pane.customer_profile_billing,
+.pane.commerce_checkout_pane_payment {
   border: 1px solid #d5d5d5;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -1033,56 +1038,56 @@ ol.commerce-checkout-progress {
   padding: 1em;
   width: 200px; }
 
-/* line 223, ../sass/components/_checkout.scss */
+/* line 224, ../sass/components/_checkout.scss */
 .commerce-checkout-review-pane h2.pane-title {
   margin-top: 1em; }
-/* line 226, ../sass/components/_checkout.scss */
+/* line 227, ../sass/components/_checkout.scss */
 .commerce-checkout-review-pane .view-commerce-cart-summary {
   border: 1px solid #fbb900; }
 
-/* line 230, ../sass/components/_checkout.scss */
+/* line 231, ../sass/components/_checkout.scss */
 .view-commerce-cart-summary {
   background: white; }
-  /* line 232, ../sass/components/_checkout.scss */
+  /* line 233, ../sass/components/_checkout.scss */
   .view-commerce-cart-summary .cols-5 {
     width: 100%; }
-    /* line 234, ../sass/components/_checkout.scss */
+    /* line 235, ../sass/components/_checkout.scss */
     .view-commerce-cart-summary .cols-5 th {
       background: #ebe9e7; }
-      /* line 236, ../sass/components/_checkout.scss */
+      /* line 237, ../sass/components/_checkout.scss */
       .view-commerce-cart-summary .cols-5 th .views-field-commerce-total {
         padding-right: 2em; }
-    /* line 240, ../sass/components/_checkout.scss */
+    /* line 241, ../sass/components/_checkout.scss */
     .view-commerce-cart-summary .cols-5 tr {
       border-bottom: 1px solid #d5d5d5; }
-    /* line 243, ../sass/components/_checkout.scss */
+    /* line 244, ../sass/components/_checkout.scss */
     .view-commerce-cart-summary .cols-5 tr.views-row-last {
       border-bottom: 1px solid #6a7076; }
-    /* line 246, ../sass/components/_checkout.scss */
+    /* line 247, ../sass/components/_checkout.scss */
     .view-commerce-cart-summary .cols-5 .views-field-commerce-total {
       padding-right: 2em; }
 
-/* line 252, ../sass/components/_checkout.scss */
+/* line 253, ../sass/components/_checkout.scss */
 .commerce-order-handler-area-order-total
 .commerce-price-formatted-components {
   width: 70%; }
   @media (min-width: 30em) {
-    /* line 252, ../sass/components/_checkout.scss */
+    /* line 253, ../sass/components/_checkout.scss */
     .commerce-order-handler-area-order-total
     .commerce-price-formatted-components {
       width: 50%; } }
   @media (min-width: 50em) {
-    /* line 252, ../sass/components/_checkout.scss */
+    /* line 253, ../sass/components/_checkout.scss */
     .commerce-order-handler-area-order-total
     .commerce-price-formatted-components {
       width: 33%; } }
-  /* line 260, ../sass/components/_checkout.scss */
+  /* line 261, ../sass/components/_checkout.scss */
   .commerce-order-handler-area-order-total
   .commerce-price-formatted-components .component-type-commerce-price-formatted-amount {
     background: #ffffbb;
     border-top: 1px solid #6a7076;
     border-bottom: 0; }
-  /* line 265, ../sass/components/_checkout.scss */
+  /* line 266, ../sass/components/_checkout.scss */
   .commerce-order-handler-area-order-total
   .commerce-price-formatted-components .component-total {
     padding-right: 2em; }
@@ -1092,7 +1097,7 @@ ol.commerce-checkout-progress {
     margin-top: -5em;
   }*/ }
 /* Checkout complete page */
-/* line 277, ../sass/components/_checkout.scss */
+/* line 278, ../sass/components/_checkout.scss */
 .commerce-checkout-form-complete {
   padding: 1em;
   background: white;
