@@ -441,20 +441,23 @@ em, i {
   /* line 48, ../sass/components/_blocks.scss */
   .follow-link-wrapper a.follow-link-youtube {
     background-image: url("../images/youtube_32.png"); }
+  /* line 51, ../sass/components/_blocks.scss */
+  .follow-link-wrapper a.follow-link-flickr {
+    background-image: url("../images/flickr_32.png"); }
 
 /* Automatische Ähnliche Produkte */
-/* line 57, ../sass/components/_blocks.scss */
+/* line 60, ../sass/components/_blocks.scss */
 .view-display-id-aehnliche_produkte li.views-fluid-grid-item,
 .view-display-id-aehnliche_produkte_auto li.views-fluid-grid-item {
   width: 85%;
   /*-moz-box-sizing: border-box !important;
   border-sizing: border-box !important;*/
   background: white; }
-  /* line 62, ../sass/components/_blocks.scss */
+  /* line 65, ../sass/components/_blocks.scss */
   .view-display-id-aehnliche_produkte li.views-fluid-grid-item a,
   .view-display-id-aehnliche_produkte_auto li.views-fluid-grid-item a {
     display: block; }
-/* line 66, ../sass/components/_blocks.scss */
+/* line 69, ../sass/components/_blocks.scss */
 .view-display-id-aehnliche_produkte .blocklink,
 .view-display-id-aehnliche_produkte_auto .blocklink {
   padding: 1em;
@@ -463,7 +466,7 @@ em, i {
   text-decoration: none;
   color: #292929;
   margin-bottom: 1em; }
-/* line 74, ../sass/components/_blocks.scss */
+/* line 77, ../sass/components/_blocks.scss */
 .view-display-id-aehnliche_produkte .blocklink:hover,
 .view-display-id-aehnliche_produkte_auto .blocklink:hover {
   text-decoration: underline; }
