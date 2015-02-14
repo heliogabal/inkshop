@@ -10,3 +10,9 @@
   padding: 1em;
   background: $white;
 }
+
+/* Hide Newsletter Registration on user register*/
+
+.page-user-register #edit-simplenews {
+  display: none;
+}

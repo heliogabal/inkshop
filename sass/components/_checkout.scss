@@ -62,6 +62,7 @@ table tr.even {
 .page-checkout-shipping li.cart:after,
 .page-checkout-review li.cart:after {
   content: '\f054' !important;
+  font-family: "FontAwesome";
 }
 ol.commerce-checkout-progress {
   border: 1px solid $mid-grey;
