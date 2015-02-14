@@ -65,5 +65,10 @@ function inkshop_preprocess_html(&$variables) {
     $variables['classes_array'][] = 'no_sidebars';
   }
 }
-
+/**
+ * Implements hook_admin_paths_alter().
+ */
+function inkshop_admin_paths_alter(&$paths) {
+  $paths['user/*/edit'] = FALSE;
+}
 ?>
