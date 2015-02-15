@@ -43,6 +43,35 @@ span.new {
      -moz-box-shadow: 0 0 10px #888;
           box-shadow: 0 0 10px #888;*/
 }
+.vergriffen {
+    background-color: #a00;
+  font-weight: 600;
+  overflow: hidden;
+  white-space: nowrap;
+  /*border: 1px solid #faa;*/
+  color: #fff;
+  display: block;
+  margin: 1px 0;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+  position: absolute;
+  right: -40px;
+  top: -20px;
+  -webkit-transform: rotate(-45deg);
+     -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+       -o-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+.section-produkt .vergriffen {
+    position: static;
+    -webkit-transform: rotate(0deg);
+     -moz-transform: rotate(0deg);
+      -ms-transform: rotate(0deg);
+       -o-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
 ul.views-fluid-grid-items-h-margin-0-5em li.views-fluid-grid-item {
   margin-left: 0;
 }

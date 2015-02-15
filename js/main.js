@@ -83,5 +83,13 @@
       simpleHeight($('.views-row', $(this)), $('.views-field-field-description', $(this)));
     });
   });
+  Drupal.behaviors.outofstock = {
+    attach: function (context, settings) {
+              /*remove add-to-cart button if product has status of sold out - for product display page*/
+        $(".out-of-stock").after( "<p class='vergriffen'>vergriffen</p>" ).closest("li").find(".field-name-commerce-price,.field-name-field-product-tax,.field-name-link-zzgl-versandkosten").remove();
+        /*remove add-to-cart button if product has status of sold out - for product teasers page*/
+        $(".section-produkt .out-of-stock").closest("div.group-right").find(".field-name-commerce-price,.field-name-field-product-tax,.field-name-link-zzgl-versandkosten").remove().after( "<p class='vergriffen'>vergriffen</p>" );
 
+    }
+  }
 })(jQuery);
