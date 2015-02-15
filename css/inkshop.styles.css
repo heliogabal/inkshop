@@ -1852,11 +1852,14 @@ button[disabled], html input[disabled] {
   position: static; }
 
 /* line 57, ../sass/components/_suedlink.scss */
+.section-suedlink-magazin-abonnieren .preview .messages {
+  display: none; }
+/* line 61, ../sass/components/_suedlink.scss */
 .section-suedlink-magazin-abonnieren .webform-client-form .webform-progressbar {
   margin: 2em auto 3em auto;
   text-align: center;
   width: 90%; }
-/* line 62, ../sass/components/_suedlink.scss */
+/* line 66, ../sass/components/_suedlink.scss */
 .section-suedlink-magazin-abonnieren .webform-client-form fieldset {
   background: white;
   border: 1px solid #6a7076;
@@ -1869,7 +1872,7 @@ button[disabled], html input[disabled] {
   padding: 1em;
   float: left;
   width: 100%; }
-  /* line 70, ../sass/components/_suedlink.scss */
+  /* line 74, ../sass/components/_suedlink.scss */
   .section-suedlink-magazin-abonnieren .webform-client-form fieldset legend {
     background: #fbb900;
     border: 0;
@@ -1882,18 +1885,18 @@ button[disabled], html input[disabled] {
     font-weight: bold;
     margin: 0;
     padding: .3em .5em; }
-/* line 80, ../sass/components/_suedlink.scss */
+/* line 84, ../sass/components/_suedlink.scss */
 .section-suedlink-magazin-abonnieren .webform-client-form .form-actions {
   float: right; }
-  /* line 82, ../sass/components/_suedlink.scss */
+  /* line 86, ../sass/components/_suedlink.scss */
   .section-suedlink-magazin-abonnieren .webform-client-form .form-actions .form-submit {
     margin: 0 0 0 1em; }
-/* line 86, ../sass/components/_suedlink.scss */
+/* line 90, ../sass/components/_suedlink.scss */
 .section-suedlink-magazin-abonnieren .webform-client-form .webform-component-display {
   float: left;
   margin-right: 3em;
   width: auto; }
-/* line 94, ../sass/components/_suedlink.scss */
+/* line 98, ../sass/components/_suedlink.scss */
 .section-suedlink-magazin-abonnieren .webform-client-form .webform-component--abonnement--addresse-des-der-beschenkten--plz,
 .section-suedlink-magazin-abonnieren .webform-client-form .webform-component--pers-nliche-angaben--plz,
 .section-suedlink-magazin-abonnieren .webform-client-form .webform-component--abonnement--addresse-des-der-beschenkten--ort

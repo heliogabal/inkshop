@@ -53,47 +53,52 @@
   }
 }
 
-.section-suedlink-magazin-abonnieren .webform-client-form {
-  .webform-progressbar {
-    margin: 2em auto 3em auto;
-    text-align: center;
-    width: 90%;
+.section-suedlink-magazin-abonnieren {
+  .preview .messages {
+    display: none;
   }
-  fieldset {
-    background: $white;
-    border: 1px solid $mid-grey;
-    @include border-radius($default-border-radius);
-    margin: 1em 0;
-    padding: 1em;
-    float: left;
-    width: 100%;
-    legend {
-      background: $orange;
-      border: 0;
-      @include border-radius($default-border-radius);
-      color: $black;
-      font-weight: bold;
-      margin: 0;
-      padding: .3em .5em;
-      }
-  }
-  .form-actions {
-    float: right;
-    .form-submit {
-      margin: 0 0 0 1em;
+    .webform-client-form {
+    .webform-progressbar {
+      margin: 2em auto 3em auto;
+      text-align: center;
+      width: 90%;
     }
-  }
-  .webform-component-display {
-    float: left;
-    margin-right: 3em;
-    width: auto;
-  }
-  .webform-component--abonnement--addresse-des-der-beschenkten--plz,
-  .webform-component--pers-nliche-angaben--plz,
-  .webform-component--abonnement--addresse-des-der-beschenkten--ort
-  .webform-component--pers-nliche-angaben--ort {
-    float: left;
-    margin-right: 3em;
-    width: auto;
+    fieldset {
+      background: $white;
+      border: 1px solid $mid-grey;
+      @include border-radius($default-border-radius);
+      margin: 1em 0;
+      padding: 1em;
+      float: left;
+      width: 100%;
+      legend {
+        background: $orange;
+        border: 0;
+        @include border-radius($default-border-radius);
+        color: $black;
+        font-weight: bold;
+        margin: 0;
+        padding: .3em .5em;
+        }
+    }
+    .form-actions {
+      float: right;
+      .form-submit {
+        margin: 0 0 0 1em;
+      }
+    }
+    .webform-component-display {
+      float: left;
+      margin-right: 3em;
+      width: auto;
+    }
+    .webform-component--abonnement--addresse-des-der-beschenkten--plz,
+    .webform-component--pers-nliche-angaben--plz,
+    .webform-component--abonnement--addresse-des-der-beschenkten--ort
+    .webform-component--pers-nliche-angaben--ort {
+      float: left;
+      margin-right: 3em;
+      width: auto;
+    }
   }
 }
