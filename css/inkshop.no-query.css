@@ -1620,23 +1620,31 @@ button[disabled], html input[disabled] {
 
 /* Volltext Suche */
 /* line 37, ../sass/components/_search.scss */
+html.js .form-autocomplete {
+  background-position: 100% 8px; }
+
+/* line 40, ../sass/components/_search.scss */
+html.js .throbbing {
+  background-position: 100% -13px; }
+
+/* line 43, ../sass/components/_search.scss */
 .search {
   /*margin-left: 1em;*/ }
-  /* line 39, ../sass/components/_search.scss */
+  /* line 45, ../sass/components/_search.scss */
   .search input.form-text {
     max-width: 150px; }
-  /* line 42, ../sass/components/_search.scss */
+  /* line 48, ../sass/components/_search.scss */
   .search .views-submit-button {
     float: right; }
-  /* line 45, ../sass/components/_search.scss */
+  /* line 51, ../sass/components/_search.scss */
   .search .compact-form-label {
     top: 12px;
     left: 10px;
     font-size: .9em; }
-  /* line 50, ../sass/components/_search.scss */
+  /* line 56, ../sass/components/_search.scss */
   .search .views-exposed-form .views-exposed-widget {
     padding-right: 0; }
-    /* line 52, ../sass/components/_search.scss */
+    /* line 58, ../sass/components/_search.scss */
     .search .views-exposed-form .views-exposed-widget .form-submit {
       margin-top: 0;
       background: url(../images/peter_burdette_search.png) no-repeat center #fbb900;
@@ -1645,47 +1653,47 @@ button[disabled], html input[disabled] {
       padding: 0;
       height: 30px; }
 
-/* line 63, ../sass/components/_search.scss */
+/* line 69, ../sass/components/_search.scss */
 .block--current-search-search-results,
 .block--current-search-standard {
   background: #ebe9e7; }
-  /* line 65, ../sass/components/_search.scss */
+  /* line 71, ../sass/components/_search.scss */
   .block--current-search-search-results .block__content,
   .block--current-search-standard .block__content {
     padding: 0 1em; }
-    /* line 67, ../sass/components/_search.scss */
+    /* line 73, ../sass/components/_search.scss */
     .block--current-search-search-results .block__content h3,
     .block--current-search-standard .block__content h3 {
       margin: .5em 0 0 0; }
-    /* line 70, ../sass/components/_search.scss */
+    /* line 76, ../sass/components/_search.scss */
     .block--current-search-search-results .block__content ul,
     .block--current-search-standard .block__content ul {
       margin-top: 0;
       padding-bottom: .5em; }
 
-/* line 77, ../sass/components/_search.scss */
+/* line 83, ../sass/components/_search.scss */
 .current-search-item ul {
   list-style: none;
   padding-left: 0; }
 
-/* line 82, ../sass/components/_search.scss */
+/* line 88, ../sass/components/_search.scss */
 .block--facetapi {
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
   -o-border-radius: 2px;
   border-radius: 2px; }
-  /* line 84, ../sass/components/_search.scss */
+  /* line 90, ../sass/components/_search.scss */
   .block--facetapi ul li {
     margin-bottom: .5em;
     line-height: 1.2; }
-  /* line 88, ../sass/components/_search.scss */
+  /* line 94, ../sass/components/_search.scss */
   .block--facetapi ul li a {
     text-decoration: none;
     font-weight: 600;
     line-height: 1.5;
     border-bottom: 3px solid transparent; }
-  /* line 94, ../sass/components/_search.scss */
+  /* line 100, ../sass/components/_search.scss */
   .block--facetapi ul li a:hover {
     /*text-decoration: underline;*/
     text-decoration: none;

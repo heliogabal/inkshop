@@ -34,6 +34,12 @@
 }
 
 /* Volltext Suche */
+html.js .form-autocomplete {
+    background-position: 100% 8px;
+}
+html.js .throbbing {
+  background-position: 100% -13px;
+}
 .search {
   /*margin-left: 1em;*/
   input.form-text {
