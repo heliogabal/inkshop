@@ -267,11 +267,23 @@ ol.commerce-checkout-progress {
   .component-total {
     padding-right: 2em;
   }
+  .component-type-commerce-price-formatted-amount .component-total:after {
+    content: "*";
+  }
+
 }
 @include breakpoint($desk) {
   /*.page-checkout-review .checkout-buttons {
     margin-top: -5em;
   }*/
+}
+.page-checkout-review {
+  .versandkosten {
+    display: none;
+  }
+  .component-type-commerce-price-formatted-amount .component-total:after {
+    content: "" !important;
+  }
 }
 
 /* Checkout complete page */
