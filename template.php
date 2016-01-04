@@ -19,8 +19,18 @@ function inkshop_form_alter(&$form, &$form_state, $form_id) {
       $form['checkout_donate']['checkout_donate']['commerce_donate_amount']['und']['#default_value'] = '0';
     break;
   }
+  // The language selector is only displayed if there is more than one language.
+  if (drupal_multilingual()) {
+    if ($form_id == 'user_register_form' || ($form_id == 'user_profile_form' && $form['#user_category'] == 'account')) {
+      if (count(element_children($form['locale'])) > 1) {
+        $form['locale']['language']['#access'] = FALSE;
+      }
+      else {
+        $form['locale']['#access'] = FALSE;
+      }
+    }
+  }
 }
-
 
 function inkshop_follow_link($variables) {
   $link = $variables['link'];
