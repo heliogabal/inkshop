@@ -17,15 +17,12 @@
     </div>
   </div>
   <div class="main">
-  <div class="invoice-header-date"><?php print render($content['invoice_header_date']); ?></div>
   <div class="customer"><?php print render($content['commerce_customer_billing']); ?></div>
-  <div class="invoice-number"><?php print render($content['order_number']); ?></div>
-<<<<<<< HEAD
-  <div class="ustid">USt-IdNr.: DE263662401</div>
-=======
->>>>>>> a158dd7175d4a189261c9bb70ee3ca39fd9331c1
-  <!--<div class="order-id"><?php //print render($content['order_id']); ?></div>-->
+  <div class="invoice-header-date"><?php print render($content['invoice_header_date']); ?></div>
 
+  <div class="invoice-number"><?php print render($content['order_number']); ?></div>
+  <div class="ustid">USt-IdNr.: DE263662401</div>
+  <!--<div class="order-id"><?php //print render($content['order_id']); ?></div>-->
   <div class="line-items">
     <div class="line-items-view"><?php print render($content['commerce_line_items']); ?></div>
     <div class="order-total"><?php print render($content['commerce_order_total']); ?></div>
