@@ -2,19 +2,26 @@ html, body {
   font-family: Arial, sans-serif;
   font-size: 12pt;
 }
+.invoice-invoiced {
+  position: relative;
+}
 .main {
   width: 540px;
   position: absolute;
   left: 10px;
 }
-.logobar {
-  width: 111px;
-  position: absolute;
-  right: 0;
-  top: -60px;
-}
-.logobar img {
+/*.logobar {
   width: 150px;
+  position: absolute;
+  left: 540px;
+  top: 0px;
+}*/
+.logobar img {
+  display: block;
+  width: 160px !important;
+  position: absolute;
+  left: 580px !important;
+  top: -70px !important;
 }
 .header img {
   width: 269px;

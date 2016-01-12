@@ -81,4 +81,28 @@ function inkshop_preprocess_html(&$variables) {
 function inkshop_admin_paths_alter(&$paths) {
   $paths['user/*/edit'] = FALSE;
 }
+// function inkshop_commerce_price_component_type_info_alter(&$component_types) {
+//   // Base price is -50
+//   $component_types['discount']['weight'] = -30;
+//   $component_types['shipping']['weight'] = -20;
+//   $component_types['tax|vat']['weight'] = -10;
+//   // We defined our shipping_discount with weight of -15.
+//   $component_types['commerce_donate']['weight'] = 30;
+// }
+// function inkshop_commerce_price_formatted_components_alter(&$components, $price, $entity) {
+//   // Base price is -50
+//   if (isset($components['discount'])) {
+//     $components['discount']['weight'] = -50;
+//   }
+//   if (isset($components['shipping'])) {
+//     $components['shipping']['weight'] = -30;
+//   }
+//   if (isset($components['tax|vat'])) {
+//     $components['tax|vat']['weight'] = -20;
+//   }
+//   // We defined our shipping_discount with weight of -15.
+//   if (isset($components['commerce_donate'])) {
+//     $components['commerce_donate']['weight'] = -10;
+//   }
+// }
 ?>
