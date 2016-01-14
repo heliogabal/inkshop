@@ -8,7 +8,7 @@ html, body {
 .main {
   width: 540px;
   position: absolute;
-  left: 10px;
+  left: 20px;
 }
 /*.logobar {
   width: 150px;
@@ -20,14 +20,14 @@ html, body {
   display: block;
   width: 160px !important;
   position: absolute;
-  left: 580px !important;
+  left: 590px !important;
   top: -70px !important;
 }
-.header img {
+/*.header img {
   width: 269px;
   position: absolute;
   top: 10px;
-}
+}*/
 .text {
   position: absolute;
   top: 300px;
@@ -51,7 +51,7 @@ html, body {
   position: absolute;
   height: 50px;
   top: 50px;
-  left: 10px;
+  left: 20px;
   display: block !important;
   font-weight: bold;
   text-transform: uppercase;

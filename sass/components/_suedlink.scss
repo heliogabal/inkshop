@@ -102,3 +102,14 @@
     }
   }
 }
+.webform-progressbar-outer {
+  border: 1px solid #FBB900;
+}
+.webform-progressbar-inner,
+.webform-progressbar-page.current,
+.webform-progressbar-page.completed {
+    background-color: #FBB900;
+}
+.webform-progressbar-page {
+  border-color: darken(#FBB900, 10%);
+}

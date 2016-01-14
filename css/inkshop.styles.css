@@ -1959,6 +1959,20 @@ html.js .throbbing {
   margin-right: 3em;
   width: auto; }
 
+/* line 105, ../sass/components/_suedlink.scss */
+.webform-progressbar-outer {
+  border: 1px solid #FBB900; }
+
+/* line 110, ../sass/components/_suedlink.scss */
+.webform-progressbar-inner,
+.webform-progressbar-page.current,
+.webform-progressbar-page.completed {
+  background-color: #FBB900; }
+
+/* line 113, ../sass/components/_suedlink.scss */
+.webform-progressbar-page {
+  border-color: #c89300; }
+
 /* User acount pages */
 /* line 3, ../sass/components/_users.scss */
 .view-commerce-addressbook-defaults {
