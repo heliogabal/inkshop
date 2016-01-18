@@ -9,8 +9,7 @@
 .l-constrained, .l-region--highlighted, .l-region--footer {
   width: 95%;
   margin: 0 auto;
-  position: relative;
-  *zoom: 1; }
+  position: relative; }
   /* line 38, ../../../../../../../../../../../../home/o4507778742.ftp/.rvm/gems/ruby-2.2.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   .l-constrained:after, .l-region--highlighted:after, .l-region--footer:after {
     content: "";

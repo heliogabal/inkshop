@@ -56,5 +56,15 @@
       });
     }
   };
-
+  Drupal.behaviors.inkshopBackLink = {
+    attach: function (context, settings) {
+        if(document.referrer.indexOf(window.location.hostname) != -1){
+          $('a.back').show();
+          $('a.back').click(function(){
+                    parent.history.back();
+                    return false;
+                });
+        }
+    }
+  };
 })(jQuery);

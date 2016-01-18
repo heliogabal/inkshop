@@ -68,6 +68,10 @@ html.js .throbbing {
 .block--current-search-search-results,
 .block--current-search-standard {
   background: $light-grey;
+  margin: .6em 0 1em;
+  float: left;
+  width: 100%;
+  position: relative;
   .block__content {
       padding: 0 1em;
       h3 {
@@ -83,6 +87,20 @@ html.js .throbbing {
   ul {
     list-style: none;
     padding-left: 0;
+  }
+}
+.current-search-item-reset-filters a {
+  display: inline-block;
+  background: $orange;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 1em;
+  border-radius: 2px;
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+  &:hover {
+    color: #fff;
   }
 }
 .block--facetapi {

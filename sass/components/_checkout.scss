@@ -58,11 +58,12 @@ table tr.even {
 .page-checkout-shipping li.checkout:after,
 .page-checkout-review li.shipping:after {
     content:'';
+    background: none;
   }
 .page-checkout-shipping li.cart:after,
 .page-checkout-review li.cart:after {
-  content: '\f054' !important;
-  font-family: "FontAwesome";
+  /*content: "\f054" !important;
+  font-family: "FontAwesome";*/
   font-weight: normal;
   font-style: normal;
   display: inline-block;
@@ -88,23 +89,29 @@ ol.commerce-checkout-progress {
     }
   }
   li:after {
-    content: '\f054';
-    font-family: "FontAwesome";
+    /*content: "\f054";
+    font-family: "FontAwesome";*/
+    content: "";
     position: absolute;
     top: 0.7em;
     right: 1em;
     margin-right: -1em;
+
+    background: transparent url("/profiles/inkota_shop/themes/inkshop/images/fa-angle-right.png") no-repeat scroll right center;
+    height: 16px;
+    width: 16px;
   }
   li.complete:after{
     content:'' !important;
+    background: none !important;
   }
 
   li.active {
     background: $light-grey;
   }
   li.active:after {
-    content: '';
-    background: #fff;
+    content: "";
+    background: none;
     width: 0;
     height: 0;
     border-top: 18px solid transparent;
