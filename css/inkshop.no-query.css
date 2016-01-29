@@ -1827,16 +1827,17 @@ html.js .throbbing {
   padding: 1em 1em 1em 0;
   position: static; }
 
-/* line 57, ../sass/components/_suedlink.scss */
-.section-suedlink-magazin-abonnieren .preview .messages {
-  display: none; }
-/* line 61, ../sass/components/_suedlink.scss */
-.section-suedlink-magazin-abonnieren .webform-client-form .webform-progressbar {
-  margin: 2em auto 3em auto;
+/* line 55, ../sass/components/_suedlink.scss */
+.webform-progressbar {
+  margin: 2em auto 4em auto;
   text-align: center;
   width: 90%; }
+
+/* line 61, ../sass/components/_suedlink.scss */
+.section-sudlink .preview .messages {
+  display: none; }
 /* line 66, ../sass/components/_suedlink.scss */
-.section-suedlink-magazin-abonnieren .webform-client-form fieldset {
+.section-sudlink .webform-client-form fieldset {
   background: white;
   border: 1px solid #6a7076;
   -webkit-border-radius: 2px;
@@ -1849,7 +1850,7 @@ html.js .throbbing {
   float: left;
   width: 100%; }
   /* line 74, ../sass/components/_suedlink.scss */
-  .section-suedlink-magazin-abonnieren .webform-client-form fieldset legend {
+  .section-sudlink .webform-client-form fieldset legend {
     background: #fbb900;
     border: 0;
     -webkit-border-radius: 2px;
@@ -1862,20 +1863,20 @@ html.js .throbbing {
     margin: 0;
     padding: .3em .5em; }
 /* line 84, ../sass/components/_suedlink.scss */
-.section-suedlink-magazin-abonnieren .webform-client-form .form-actions {
+.section-sudlink .webform-client-form .form-actions {
   float: right; }
   /* line 86, ../sass/components/_suedlink.scss */
-  .section-suedlink-magazin-abonnieren .webform-client-form .form-actions .form-submit {
+  .section-sudlink .webform-client-form .form-actions .form-submit {
     margin: 0 0 0 1em; }
 /* line 90, ../sass/components/_suedlink.scss */
-.section-suedlink-magazin-abonnieren .webform-client-form .webform-component-display {
+.section-sudlink .webform-client-form .webform-component-display {
   float: left;
   margin-right: 3em;
   width: auto; }
 /* line 98, ../sass/components/_suedlink.scss */
-.section-suedlink-magazin-abonnieren .webform-client-form .webform-component--abonnement--addresse-des-der-beschenkten--plz,
-.section-suedlink-magazin-abonnieren .webform-client-form .webform-component--pers-nliche-angaben--plz,
-.section-suedlink-magazin-abonnieren .webform-client-form .webform-component--abonnement--addresse-des-der-beschenkten--ort
+.section-sudlink .webform-client-form .webform-component--abonnement--addresse-des-der-beschenkten--plz,
+.section-sudlink .webform-client-form .webform-component--pers-nliche-angaben--plz,
+.section-sudlink .webform-client-form .webform-component--abonnement--addresse-des-der-beschenkten--ort
 .webform-component--pers-nliche-angaben--ort {
   float: left;
   margin-right: 3em;

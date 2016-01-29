@@ -52,17 +52,17 @@
     }
   }
 }
-
-.section-suedlink-magazin-abonnieren {
+.webform-progressbar {
+      margin: 2em auto 4em auto;
+      text-align: center;
+      width: 90%;
+    }
+.section-sudlink {
   .preview .messages {
     display: none;
   }
     .webform-client-form {
-    .webform-progressbar {
-      margin: 2em auto 3em auto;
-      text-align: center;
-      width: 90%;
-    }
+
     fieldset {
       background: $white;
       border: 1px solid $mid-grey;
