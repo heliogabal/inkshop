@@ -209,12 +209,16 @@ ol.commerce-checkout-progress {
         width: 50%;
       }
       .commerce_payment {
+        border: 1px solid $ink-grey;
+        @include border-radius($default-border-radius);
         float: left;
-        width: 50%;
+        clear: left;
+        margin: 1em 1em 1em 0;
+        padding: 1em;
       }
       .checkout-buttons {
-        clear: right;
-        float: right;
+        /*clear: right;
+        float: right;*/
       }
     }
 }
@@ -224,19 +228,20 @@ ol.commerce-checkout-progress {
 .pane.account,
 .pane.customer_profile_shipping,
 .pane.customer_profile_billing,
-.pane.commerce_checkout_pane_payment {
+.pane.commerce_checkout_pane_payment,
+.pane.extra_pane__node__1264 {
     border: 1px solid $ink-grey;
     @include border-radius($default-border-radius);
     float: left;
     margin: 1em 1em 1em 0;
     padding: 1em;
-    width: 200px;
+    width: 180px;
 }
-.commerce-checkout-review-pane {
+.commerce-checkout-form-review {
   h2.pane-title {
     margin-top: 1em;
   }
-  .view-commerce-cart-summary {
+  .checkout_review fieldset.cart_contents {
     border: 1px solid $orange;
     }
   }

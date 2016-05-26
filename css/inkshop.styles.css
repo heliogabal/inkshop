@@ -1026,19 +1026,28 @@ ol.commerce-checkout-progress {
     width: 50%; }
   /* line 211, ../sass/components/_checkout.scss */
   .page-checkout .commerce_payment {
+    border: 1px solid #d5d5d5;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
     float: left;
-    width: 50%; }
-  /* line 215, ../sass/components/_checkout.scss */
+    clear: left;
+    margin: 1em 1em 1em 0;
+    padding: 1em; }
+  /* line 219, ../sass/components/_checkout.scss */
   .page-checkout .checkout-buttons {
-    clear: right;
-    float: right; } }
+    /*clear: right;
+    float: right;*/ } }
 
 /* Checkout Review Pane */
-/* line 227, ../sass/components/_checkout.scss */
+/* line 232, ../sass/components/_checkout.scss */
 .pane.account,
 .pane.customer_profile_shipping,
 .pane.customer_profile_billing,
-.pane.commerce_checkout_pane_payment {
+.pane.commerce_checkout_pane_payment,
+.pane.extra_pane__node__1264 {
   border: 1px solid #d5d5d5;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -1048,62 +1057,62 @@ ol.commerce-checkout-progress {
   float: left;
   margin: 1em 1em 1em 0;
   padding: 1em;
-  width: 200px; }
+  width: 180px; }
 
-/* line 236, ../sass/components/_checkout.scss */
-.commerce-checkout-review-pane h2.pane-title {
+/* line 241, ../sass/components/_checkout.scss */
+.commerce-checkout-form-review h2.pane-title {
   margin-top: 1em; }
-/* line 239, ../sass/components/_checkout.scss */
-.commerce-checkout-review-pane .view-commerce-cart-summary {
+/* line 244, ../sass/components/_checkout.scss */
+.commerce-checkout-form-review .checkout_review fieldset.cart_contents {
   border: 1px solid #fbb900; }
 
-/* line 243, ../sass/components/_checkout.scss */
+/* line 248, ../sass/components/_checkout.scss */
 .view-commerce-cart-summary {
   background: white; }
-  /* line 245, ../sass/components/_checkout.scss */
+  /* line 250, ../sass/components/_checkout.scss */
   .view-commerce-cart-summary .cols-5 {
     width: 100%; }
-    /* line 247, ../sass/components/_checkout.scss */
+    /* line 252, ../sass/components/_checkout.scss */
     .view-commerce-cart-summary .cols-5 th {
       background: #ebe9e7; }
-      /* line 249, ../sass/components/_checkout.scss */
+      /* line 254, ../sass/components/_checkout.scss */
       .view-commerce-cart-summary .cols-5 th .views-field-commerce-total {
         padding-right: 2em; }
-    /* line 253, ../sass/components/_checkout.scss */
+    /* line 258, ../sass/components/_checkout.scss */
     .view-commerce-cart-summary .cols-5 tr {
       border-bottom: 1px solid #d5d5d5; }
-    /* line 256, ../sass/components/_checkout.scss */
+    /* line 261, ../sass/components/_checkout.scss */
     .view-commerce-cart-summary .cols-5 tr.views-row-last {
       border-bottom: 1px solid #6a7076; }
-    /* line 259, ../sass/components/_checkout.scss */
+    /* line 264, ../sass/components/_checkout.scss */
     .view-commerce-cart-summary .cols-5 .views-field-commerce-total {
       padding-right: 2em; }
 
-/* line 265, ../sass/components/_checkout.scss */
+/* line 270, ../sass/components/_checkout.scss */
 .commerce-order-handler-area-order-total
 .commerce-price-formatted-components {
   width: 70%; }
   @media (min-width: 30em) {
-    /* line 265, ../sass/components/_checkout.scss */
+    /* line 270, ../sass/components/_checkout.scss */
     .commerce-order-handler-area-order-total
     .commerce-price-formatted-components {
       width: 50%; } }
   @media (min-width: 50em) {
-    /* line 265, ../sass/components/_checkout.scss */
+    /* line 270, ../sass/components/_checkout.scss */
     .commerce-order-handler-area-order-total
     .commerce-price-formatted-components {
       width: 33%; } }
-  /* line 273, ../sass/components/_checkout.scss */
+  /* line 278, ../sass/components/_checkout.scss */
   .commerce-order-handler-area-order-total
   .commerce-price-formatted-components .component-type-commerce-price-formatted-amount {
     background: #ffffbb;
     border-top: 1px solid #6a7076;
     border-bottom: 0; }
-  /* line 278, ../sass/components/_checkout.scss */
+  /* line 283, ../sass/components/_checkout.scss */
   .commerce-order-handler-area-order-total
   .commerce-price-formatted-components .component-total {
     padding-right: 2em; }
-  /* line 281, ../sass/components/_checkout.scss */
+  /* line 286, ../sass/components/_checkout.scss */
   .commerce-order-handler-area-order-total
   .commerce-price-formatted-components .component-type-commerce-price-formatted-amount .component-total:after {
     content: "*"; }
@@ -1112,15 +1121,15 @@ ol.commerce-checkout-progress {
   /*.page-checkout-review .checkout-buttons {
     margin-top: -5em;
   }*/ }
-/* line 292, ../sass/components/_checkout.scss */
+/* line 297, ../sass/components/_checkout.scss */
 .page-checkout-review .versandkosten {
   display: none; }
-/* line 295, ../sass/components/_checkout.scss */
+/* line 300, ../sass/components/_checkout.scss */
 .page-checkout-review .component-type-commerce-price-formatted-amount .component-total:after {
   content: "" !important; }
 
 /* Checkout complete page */
-/* line 302, ../sass/components/_checkout.scss */
+/* line 307, ../sass/components/_checkout.scss */
 .commerce-checkout-form-complete {
   padding: 1em;
   background: white;
@@ -1303,7 +1312,7 @@ nav.block--menu-menu-pflichtmenu ul {
     .node--product-display--full .group-right .field.field-name-field-pd-type {
       padding-bottom: 0.5em; }
     /* line 53, ../sass/components/_product_node.scss */
-    .node--product-display--full .group-right .field-name-commerce-price {
+    .node--product-display--full .group-right .field--name-commerce-price {
       font-size: 1.6em;
       margin: .5em 2em 0 0;
       line-height: 1;
@@ -1311,7 +1320,7 @@ nav.block--menu-menu-pflichtmenu ul {
       margin: 0;
       padding: 3em 0 .6em; }
     /* line 61, ../sass/components/_product_node.scss */
-    .node--product-display--full .group-right .field.field-name-field-product-tax {
+    .node--product-display--full .group-right .field.field--name-field-product-tax {
       padding-bottom: 0;
       font-size: .8em;
       float: left;
@@ -1524,7 +1533,7 @@ li.views-fluid-grid-item {
   padding: 1em 1em 2.7em 0; }
 
 /* line 111, ../sass/components/_products.scss */
-.field-name-field-product-tax {
+.field--name-field-product-tax {
   bottom: 0;
   font-size: 0.7em;
   padding-bottom: 2.5em;
