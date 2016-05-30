@@ -1532,14 +1532,15 @@ li.views-fluid-grid-item {
   font-size: 1.2em;
   padding: 1em 1em 2.7em 0; }
 
-/* line 111, ../sass/components/_products.scss */
+/* line 112, ../sass/components/_products.scss */
+.field-name-field-product-tax,
 .field--name-field-product-tax {
   bottom: 0;
   font-size: 0.7em;
   padding-bottom: 2.5em;
   position: absolute; }
 
-/* line 117, ../sass/components/_products.scss */
+/* line 118, ../sass/components/_products.scss */
 .field-name-link-zzgl-versandkosten {
   bottom: 0;
   font-size: 0.7em;
@@ -1547,7 +1548,7 @@ li.views-fluid-grid-item {
   padding: 0 0 0.5em;
   position: absolute; }
 
-/* line 126, ../sass/components/_products.scss */
+/* line 127, ../sass/components/_products.scss */
 .field-name-field-commerce-product,
 .field--name-field-commerce-product,
 .node-type-product-display .commerce-add-to-cart .form-submit {
@@ -1558,7 +1559,7 @@ li.views-fluid-grid-item {
   margin: 1em 0;
   padding-left: .5em; }
 
-/* line 134, ../sass/components/_products.scss */
+/* line 135, ../sass/components/_products.scss */
 .commerce-add-to-cart .form-submit {
   background: url(../images/cart_32.png) no-repeat center #fbb900;
   height: 30px;
@@ -1572,11 +1573,11 @@ li.views-fluid-grid-item {
   -webkit-border-bottom-left-radius: 2px;
   border-bottom-left-radius: 2px; }
 
-/* line 142, ../sass/components/_products.scss */
+/* line 143, ../sass/components/_products.scss */
 .commerce-add-to-cart .form-submit:hover {
   background: url(../images/cart_32_fff.png) no-repeat center #aa0000; }
 
-/* line 147, ../sass/components/_products.scss */
+/* line 148, ../sass/components/_products.scss */
 .commerce-add-to-cart input.wishlist,
 .in-wishlist,
 .add-to-wishlist {
@@ -1591,16 +1592,16 @@ li.views-fluid-grid-item {
   bottom: 0;
   right: 10px; }
 
-/* line 159, ../sass/components/_products.scss */
+/* line 160, ../sass/components/_products.scss */
 .commerce-add-to-cart input.wishlist:hover {
   background: none;
   text-decoration: underline;
   color: #fbb900; }
 
-/* line 164, ../sass/components/_products.scss */
+/* line 165, ../sass/components/_products.scss */
 .form-item-quantity {
   display: inline; }
-  /* line 166, ../sass/components/_products.scss */
+  /* line 167, ../sass/components/_products.scss */
   .form-item-quantity input {
     width: 35px;
     height: 31px;
@@ -1610,15 +1611,15 @@ li.views-fluid-grid-item {
     -ms-border-radius: 2px;
     -o-border-radius: 2px;
     border-radius: 2px; }
-  /* line 172, ../sass/components/_products.scss */
+  /* line 173, ../sass/components/_products.scss */
   .form-item-quantity label {
     display: none; }
 
-/* line 176, ../sass/components/_products.scss */
+/* line 177, ../sass/components/_products.scss */
 .out-of-stock .form-item-quantity {
   display: none; }
 
-/* line 181, ../sass/components/_products.scss */
+/* line 182, ../sass/components/_products.scss */
 .field-name-field-product-subtitle,
 .field--name-field-product-subtitle {
   margin-bottom: 1em;
@@ -1628,10 +1629,10 @@ li.views-fluid-grid-item {
   hyphens: auto; }
 
 /* Suchleiste */
-/* line 187, ../sass/components/_products.scss */
+/* line 188, ../sass/components/_products.scss */
 .block--facetapi {
   /*background: $light-grey;*/ }
-  /* line 189, ../sass/components/_products.scss */
+  /* line 190, ../sass/components/_products.scss */
   .block--facetapi h2 {
     /*background: $orange;*/
     /*border-bottom: 5px solid $orange;*/
@@ -1645,74 +1646,74 @@ li.views-fluid-grid-item {
     -moz-border-radius-topright: 2px;
     -webkit-border-top-right-radius: 2px;
     border-top-right-radius: 2px; }
-  /* line 198, ../sass/components/_products.scss */
+  /* line 199, ../sass/components/_products.scss */
   .block--facetapi ul {
     list-style: none;
     padding: 0 .2em 1em .6em; }
 
-/* line 205, ../sass/components/_products.scss */
+/* line 206, ../sass/components/_products.scss */
 .view-id-produkte h2 a,
 .field--name-title-field a,
 .view-display-products h2 a {
   text-decoration: none; }
 
-/* line 208, ../sass/components/_products.scss */
+/* line 209, ../sass/components/_products.scss */
 .view-id-produkte .field-name-field-pd-description {
   display: none; }
 
-/* line 211, ../sass/components/_products.scss */
+/* line 212, ../sass/components/_products.scss */
 .view-id-produkte .views-fluid-grid-item:hover .field-name-field-pd-description {
   display: block;
   clear: both; }
 
 /* Grid View Startseite */
-/* line 217, ../sass/components/_products.scss */
+/* line 218, ../sass/components/_products.scss */
 .views-fluid-grid h2 {
   font-size: 1em; }
-/* line 221, ../sass/components/_products.scss */
+/* line 222, ../sass/components/_products.scss */
 .views-fluid-grid .field-name-field-product-image,
 .views-fluid-grid .field--name-field-product-image {
   text-align: center;
   float: none;
   margin: 0 0 .5em 0;
   min-height: 182px; }
-/* line 229, ../sass/components/_products.scss */
+/* line 230, ../sass/components/_products.scss */
 .views-fluid-grid .field-name-field-product-pdf,
 .views-fluid-grid .field--name-field-product-pdf,
 .views-fluid-grid .field-name-field-pd-pdfs {
   float: left;
   padding: 0 0 1em; }
 
-/* line 235, ../sass/components/_products.scss */
+/* line 236, ../sass/components/_products.scss */
 .field-name-field-product-image,
 .field--name-field-product-image {
   float: left;
   margin-right: 1em;
   margin-bottom: .5em; }
 
-/* line 241, ../sass/components/_products.scss */
+/* line 242, ../sass/components/_products.scss */
 .view-id-produkte .field-name-field-product-image,
 .view-id-produkte .field--name-field-product-image {
   float: none; }
 
-/* line 247, ../sass/components/_products.scss */
+/* line 248, ../sass/components/_products.scss */
 .field-name-field-pd-category,
 .field--name-field-pd-category,
 .field-name-node-link,
 .field--name-node-link {
   clear: both; }
 
-/* line 250, ../sass/components/_products.scss */
+/* line 251, ../sass/components/_products.scss */
 .commerce-add-to-cart {
   padding: 0;
   margin-bottom: 1.6em;
   float: left; }
 
-/* line 256, ../sass/components/_products.scss */
+/* line 257, ../sass/components/_products.scss */
 button[disabled], html input[disabled], a.back {
   display: none; }
 
-/* line 259, ../sass/components/_products.scss */
+/* line 260, ../sass/components/_products.scss */
 a.back {
   padding: 1em;
   background: #fbb900;
@@ -1721,23 +1722,23 @@ a.back {
   font-weight: bold;
   border-radius: 2px; }
 
-/* line 267, ../sass/components/_products.scss */
+/* line 268, ../sass/components/_products.scss */
 a.back:hover {
   color: #fff; }
 
-/* line 270, ../sass/components/_products.scss */
+/* line 271, ../sass/components/_products.scss */
 #flexslider-1 {
   width: 175px; }
 
-/* line 273, ../sass/components/_products.scss */
+/* line 274, ../sass/components/_products.scss */
 .pager li {
   list-style: none;
   display: inline-block; }
-  /* line 276, ../sass/components/_products.scss */
+  /* line 277, ../sass/components/_products.scss */
   .pager li a {
     text-decoration: none; }
 
-/* line 280, ../sass/components/_products.scss */
+/* line 281, ../sass/components/_products.scss */
 .page-user-ich-wishlist .commerce-add-to-cart {
   margin-bottom: 0; }
 
