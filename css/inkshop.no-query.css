@@ -946,12 +946,13 @@ ol.commerce-checkout-progress {
     max-width: 250px; }
 
 /* Checkout Review Pane */
-/* line 232, ../sass/components/_checkout.scss */
-.pane.account,
-.pane.customer_profile_shipping,
-.pane.customer_profile_billing,
-.pane.commerce_checkout_pane_payment,
-.pane.extra_pane__node__1264 {
+/* line 209, ../sass/components/_checkout.scss */
+.checkout_review .account,
+.checkout_review .commerce_payment,
+.checkout_review .customer_profile_shipping,
+.checkout_review .customer_profile_billing,
+.checkout_review .commerce_checkout_pane_payment,
+.checkout_review .extra_pane__node__1264 {
   border: 1px solid #d5d5d5;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -959,67 +960,75 @@ ol.commerce-checkout-progress {
   -o-border-radius: 2px;
   border-radius: 2px;
   float: left;
+  clear: none;
   margin: 1em 1em 1em 0;
   padding: 1em;
   width: 180px; }
+/* line 218, ../sass/components/_checkout.scss */
+.checkout_review .extra_pane__node__1264 {
+  display: none; }
+@media all and (max-width: 1281px) {
+  /* line 222, ../sass/components/_checkout.scss */
+  .checkout_review .customer_profile_shipping {
+    clear: left; } }
 
-/* line 241, ../sass/components/_checkout.scss */
+/* line 228, ../sass/components/_checkout.scss */
 .commerce-checkout-form-review h2.pane-title {
   margin-top: 1em; }
-/* line 244, ../sass/components/_checkout.scss */
+/* line 231, ../sass/components/_checkout.scss */
 .commerce-checkout-form-review .checkout_review fieldset.cart_contents {
   border: 1px solid #fbb900; }
 
-/* line 248, ../sass/components/_checkout.scss */
+/* line 235, ../sass/components/_checkout.scss */
 .view-commerce-cart-summary {
   background: white; }
-  /* line 250, ../sass/components/_checkout.scss */
+  /* line 237, ../sass/components/_checkout.scss */
   .view-commerce-cart-summary .cols-5 {
     width: 100%; }
-    /* line 252, ../sass/components/_checkout.scss */
+    /* line 239, ../sass/components/_checkout.scss */
     .view-commerce-cart-summary .cols-5 th {
       background: #ebe9e7; }
-      /* line 254, ../sass/components/_checkout.scss */
+      /* line 241, ../sass/components/_checkout.scss */
       .view-commerce-cart-summary .cols-5 th .views-field-commerce-total {
         padding-right: 2em; }
-    /* line 258, ../sass/components/_checkout.scss */
+    /* line 245, ../sass/components/_checkout.scss */
     .view-commerce-cart-summary .cols-5 tr {
       border-bottom: 1px solid #d5d5d5; }
-    /* line 261, ../sass/components/_checkout.scss */
+    /* line 248, ../sass/components/_checkout.scss */
     .view-commerce-cart-summary .cols-5 tr.views-row-last {
       border-bottom: 1px solid #6a7076; }
-    /* line 264, ../sass/components/_checkout.scss */
+    /* line 251, ../sass/components/_checkout.scss */
     .view-commerce-cart-summary .cols-5 .views-field-commerce-total {
       padding-right: 2em; }
 
-/* line 270, ../sass/components/_checkout.scss */
+/* line 257, ../sass/components/_checkout.scss */
 .commerce-order-handler-area-order-total
 .commerce-price-formatted-components {
   width: 70%; }
-  /* line 278, ../sass/components/_checkout.scss */
+  /* line 265, ../sass/components/_checkout.scss */
   .commerce-order-handler-area-order-total
   .commerce-price-formatted-components .component-type-commerce-price-formatted-amount {
     background: #ffffbb;
     border-top: 1px solid #6a7076;
     border-bottom: 0; }
-  /* line 283, ../sass/components/_checkout.scss */
+  /* line 270, ../sass/components/_checkout.scss */
   .commerce-order-handler-area-order-total
   .commerce-price-formatted-components .component-total {
     padding-right: 2em; }
-  /* line 286, ../sass/components/_checkout.scss */
+  /* line 273, ../sass/components/_checkout.scss */
   .commerce-order-handler-area-order-total
   .commerce-price-formatted-components .component-type-commerce-price-formatted-amount .component-total:after {
     content: "*"; }
 
-/* line 297, ../sass/components/_checkout.scss */
+/* line 284, ../sass/components/_checkout.scss */
 .page-checkout-review .versandkosten {
   display: none; }
-/* line 300, ../sass/components/_checkout.scss */
+/* line 287, ../sass/components/_checkout.scss */
 .page-checkout-review .component-type-commerce-price-formatted-amount .component-total:after {
   content: "" !important; }
 
 /* Checkout complete page */
-/* line 307, ../sass/components/_checkout.scss */
+/* line 294, ../sass/components/_checkout.scss */
 .commerce-checkout-form-complete {
   padding: 1em;
   background: white;
@@ -1836,10 +1845,10 @@ html.js .throbbing {
   width: 90%; }
 
 /* line 61, ../sass/components/_suedlink.scss */
-.section-sudlink .preview .messages {
+.section-suedlink-abo .preview .messages {
   display: none; }
 /* line 66, ../sass/components/_suedlink.scss */
-.section-sudlink .webform-client-form fieldset {
+.section-suedlink-abo .webform-client-form fieldset {
   background: white;
   border: 1px solid #6a7076;
   -webkit-border-radius: 2px;
@@ -1852,7 +1861,7 @@ html.js .throbbing {
   float: left;
   width: 100%; }
   /* line 74, ../sass/components/_suedlink.scss */
-  .section-sudlink .webform-client-form fieldset legend {
+  .section-suedlink-abo .webform-client-form fieldset legend {
     background: #fbb900;
     border: 0;
     -webkit-border-radius: 2px;
@@ -1865,20 +1874,20 @@ html.js .throbbing {
     margin: 0;
     padding: .3em .5em; }
 /* line 84, ../sass/components/_suedlink.scss */
-.section-sudlink .webform-client-form .form-actions {
+.section-suedlink-abo .webform-client-form .form-actions {
   float: right; }
   /* line 86, ../sass/components/_suedlink.scss */
-  .section-sudlink .webform-client-form .form-actions .form-submit {
+  .section-suedlink-abo .webform-client-form .form-actions .form-submit {
     margin: 0 0 0 1em; }
 /* line 90, ../sass/components/_suedlink.scss */
-.section-sudlink .webform-client-form .webform-component-display {
+.section-suedlink-abo .webform-client-form .webform-component-display {
   float: left;
   margin-right: 3em;
   width: auto; }
 /* line 98, ../sass/components/_suedlink.scss */
-.section-sudlink .webform-client-form .webform-component--abonnement--addresse-des-der-beschenkten--plz,
-.section-sudlink .webform-client-form .webform-component--pers-nliche-angaben--plz,
-.section-sudlink .webform-client-form .webform-component--abonnement--addresse-des-der-beschenkten--ort
+.section-suedlink-abo .webform-client-form .webform-component--abonnement--addresse-des-der-beschenkten--plz,
+.section-suedlink-abo .webform-client-form .webform-component--pers-nliche-angaben--plz,
+.section-suedlink-abo .webform-client-form .webform-component--abonnement--addresse-des-der-beschenkten--ort
 .webform-component--pers-nliche-angaben--ort {
   float: left;
   margin-right: 3em;

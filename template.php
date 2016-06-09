@@ -105,4 +105,5 @@ function inkshop_admin_paths_alter(&$paths) {
 //     $components['commerce_donate']['weight'] = -10;
 //   }
 // }
+
 ?>

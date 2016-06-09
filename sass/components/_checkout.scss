@@ -173,69 +173,56 @@ ol.commerce-checkout-progress {
       }
     }
     @include breakpoint($tab) {
-      #edit-checkout-donate,
-      .customer_profile_shipping {
-        float: left;
-        width: 50%;
-      }
       .account,
-      .customer_profile_billing {
-        float: right;
-        width: 45%
-      }
-      .commerce_simplenews_checkout {
+      .customer_profile_shipping,
+      .commerce_simplenews_checkout,
+      #edit-commerce-payment-payment-method,
+      .commerce_payment {
         float: left;
         width: 50%;
+        clear: left;
       }
-      .commerce_fieldgroup_pane__group_commerce_order_note{
-        float: right;
-        width: 45%;
-      }
-      #edit-extra-pane-node-1264 {
-        clear: right;
-        float: right;
-        width: 45%;
-      }
-      .commerce_shipping {
-        float: right;
-        width: 45%;
-      }
+      #edit-checkout-donate,
+      .customer_profile_billing,
+      .commerce_fieldgroup_pane__group_commerce_order_note,
+      #edit-extra-pane-node-1264,
+      .commerce_shipping,
       #payment-details {
         float: right;
         width: 45%;
-      }
-      #edit-commerce-payment-payment-method {
-        float: left;
-        width: 50%;
-      }
-      .commerce_payment {
-        border: 1px solid $ink-grey;
-        @include border-radius($default-border-radius);
-        float: left;
-        clear: left;
-        margin: 1em 1em 1em 0;
-        padding: 1em;
+        clear: right;
       }
       .checkout-buttons {
-        /*clear: right;
-        float: right;*/
+        clear: right;
+        float: right;
       }
     }
 }
 
 /* Checkout Review Pane */
-
-.pane.account,
-.pane.customer_profile_shipping,
-.pane.customer_profile_billing,
-.pane.commerce_checkout_pane_payment,
-.pane.extra_pane__node__1264 {
-    border: 1px solid $ink-grey;
-    @include border-radius($default-border-radius);
-    float: left;
-    margin: 1em 1em 1em 0;
-    padding: 1em;
-    width: 180px;
+.checkout_review {
+  .account,
+  .commerce_payment,
+  .customer_profile_shipping,
+  .customer_profile_billing,
+  .commerce_checkout_pane_payment,
+  .extra_pane__node__1264 {
+      border: 1px solid $ink-grey;
+      @include border-radius($default-border-radius);
+      float: left;
+      clear: none;
+      margin: 1em 1em 1em 0;
+      padding: 1em;
+      width: 180px;
+    }
+    .extra_pane__node__1264 {
+      display: none;
+    }
+    @media all and (max-width: 1281px) {
+      .customer_profile_shipping {
+        clear: left;
+      }
+    }
 }
 .commerce-checkout-form-review {
   h2.pane-title {
