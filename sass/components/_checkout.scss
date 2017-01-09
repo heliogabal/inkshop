@@ -130,6 +130,9 @@ ol.commerce-checkout-progress {
   }
 }
 /* Kassenseite */
+#payment-details {
+  display: none;
+}
 .page-checkout {
     fieldset {
     background: $white;
@@ -187,11 +190,11 @@ ol.commerce-checkout-progress {
       .commerce_fieldgroup_pane__group_commerce_order_note,
       #edit-extra-pane-node-1264,
       .commerce_shipping,
-      .customer_profile_eu_vat_rc,
-      #payment-details {
+      .customer_profile_eu_vat_rc {
         float: right;
         width: 45%;
         clear: right;
+        min-height: 200px;
       }
       .checkout-buttons {
         clear: right;
@@ -206,8 +209,10 @@ ol.commerce-checkout-progress {
   .commerce_payment,
   .customer_profile_shipping,
   .customer_profile_billing,
+  .commerce_fieldgroup_pane__group_commerce_order_note,
   .commerce_checkout_pane_payment,
-  .extra_pane__node__1264 {
+  .extra_pane__node__1264,
+  .customer_profile_eu_vat_rc {
       border: 1px solid $ink-grey;
       @include border-radius($default-border-radius);
       float: left;
@@ -215,6 +220,7 @@ ol.commerce-checkout-progress {
       margin: 1em 1em 1em 0;
       padding: 1em;
       width: 180px;
+      min-height: 200px;
     }
     .extra_pane__node__1264 {
       display: none;
@@ -285,8 +291,20 @@ ol.commerce-checkout-progress {
   .versandkosten {
     display: none;
   }
+  #edit-extra-pane-node-1264 {
+    float: left;
+    width: auto;
+    border: 1px solid $ink-grey;
+    max-width: 780px;
+  }
+  .checkout-buttons {
+    float: none;
+  }
   .component-type-commerce-price-formatted-amount .component-total:after {
     content: "" !important;
+  }
+  #edit-checkout-review fieldset:nth-child(6) {
+    clear:left;
   }
 }
 
