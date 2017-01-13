@@ -5,6 +5,11 @@
       $('.block--views-exp-display-products-page .views-exposed-form .views-exposed-widget .form-submit').attr('title','Suchen');
      }
   };
+  Drupal.behaviors.summaryshippingtext = {
+    attach: function (context, settings) {
+     $( "<p class='versandkosten'><strong>*</strong> zzgl. <a href='/node/1260' class='colorbox-node'>Versandkosten</a>, die Ihnen bei der Überprüfung der Bestellung angezeigt werden, nachdem Sie Ihre Lieferadresse angegeben haben.</p>" ).insertAfter( "#commerce-checkout-form-checkout .commerce-order-handler-area-order-total" );
+    }
+  };
   Drupal.behaviors.infiniteScrollAddClass = {
     attach: function (context, settings) {
       var $blocks = $('.block--commercebox-base-theme-cb-cart, .block-commerce-product-comparison, .pane-commercebox-wishlist, #block-user-login');
