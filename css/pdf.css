@@ -45,8 +45,8 @@ html, body {
 .address {
   position: absolute;
   top: 0px;
-  height: 50px;
-  font-size: 10pt;
+  height: 60px;
+  font-size: 8pt;
 }
 .rechnung {
   position: absolute;
@@ -73,7 +73,7 @@ html, body {
 .customer {
   position: relative;
   left: 0;
-  top: 150px;
+  top: 130px;
   margin-bottom: 120px;
 }
 .field--name-commerce-customer-billing .field__label {
@@ -87,21 +87,21 @@ html, body {
 }
 .invoice-header-date {
   position: absolute;
-  top: 150px;
+  top: 130px;
   left: 340px;
   font-size: 10pt;
   font-weight: bold;
 }
 .invoice-number {
   position: absolute;
-  top: 170px;
+  top: 150px;
   left: 340px;
   font-size: 10pt;
   font-weight: bold;
 }
 .ustid {
   position: absolute;
-  top: 190px;
+  top: 170px;
   left: 340px;
   font-size: 10pt;
   font-weight: bold;
