@@ -1,6 +1,18 @@
 .label-above {
   font-weight: 600;
 }
+.finanzhinweis {
+  clear:left;
+  font-size: .8em;
+  font-style: italic;
+  border-top: 1px solid #ddd;
+  img {
+    max-width: 42%;
+  }
+  p {
+    line-height: 1.2 !important;
+  }
+}
 .node-type-product-display .l-content {
   padding: 1em;
   @include breakpoint($desk) {
