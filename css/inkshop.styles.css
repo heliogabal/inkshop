@@ -1249,6 +1249,19 @@ nav.block--menu-menu-pflichtmenu ul {
   font-weight: 600; }
 
 /* line 4, ../sass/components/_product_node.scss */
+.finanzhinweis {
+  clear: left;
+  font-size: .8em;
+  font-style: italic;
+  border-top: 1px solid #ddd; }
+  /* line 9, ../sass/components/_product_node.scss */
+  .finanzhinweis img {
+    max-width: 42%; }
+  /* line 12, ../sass/components/_product_node.scss */
+  .finanzhinweis p {
+    line-height: 1.2 !important; }
+
+/* line 16, ../sass/components/_product_node.scss */
 .node-type-product-display .l-content {
   padding: 1em;
   /*margin: 0 0 1em 0; interferes with sidebars*/
@@ -1262,11 +1275,11 @@ nav.block--menu-menu-pflichtmenu ul {
   border-radius: 2px;
   /*@include single-box-shadow($default-box-shadow-color, 0, 0, $default-box-shadow-blur);*/ }
   @media (min-width: 70em) {
-    /* line 4, ../sass/components/_product_node.scss */
+    /* line 16, ../sass/components/_product_node.scss */
     .node-type-product-display .l-content {
       padding: 2em; } }
 
-/* line 16, ../sass/components/_product_node.scss */
+/* line 28, ../sass/components/_product_node.scss */
 .node--product-display--full {
   /*.field-name-field-pd-type,
   .field--name-field-pd-type,
@@ -1277,42 +1290,42 @@ nav.block--menu-menu-pflichtmenu ul {
     display: inline-block;
     margin-bottom: 3em;
   }*/ }
-  /* line 17, ../sass/components/_product_node.scss */
+  /* line 29, ../sass/components/_product_node.scss */
   .node--product-display--full span.new {
     padding: 10px 100px;
     right: -70px;
     top: 30px;
     border: 0;
     box-shadow: none; }
-  /* line 26, ../sass/components/_product_node.scss */
+  /* line 38, ../sass/components/_product_node.scss */
   .node--product-display--full .group-header .field-name-field-product-subtitle,
   .node--product-display--full .group-header .field--name-field-product-subtitle {
     font-weight: 600;
     font-size: 1em; }
-  /* line 31, ../sass/components/_product_node.scss */
+  /* line 43, ../sass/components/_product_node.scss */
   .node--product-display--full .group-left {
     float: left;
     width: 70%;
     padding-right: 4em; }
-    /* line 35, ../sass/components/_product_node.scss */
+    /* line 47, ../sass/components/_product_node.scss */
     .node--product-display--full .group-left .field-name-field-product-image {
       margin-top: 1.5em; }
-  /* line 39, ../sass/components/_product_node.scss */
+  /* line 51, ../sass/components/_product_node.scss */
   .node--product-display--full .group-right {
     float: left;
     width: 30%;
     margin-top: 1em;
     position: relative; }
-    /* line 44, ../sass/components/_product_node.scss */
+    /* line 56, ../sass/components/_product_node.scss */
     .node--product-display--full .group-right .field-name-field-product-pdf {
       padding-bottom: 1em; }
-    /* line 47, ../sass/components/_product_node.scss */
+    /* line 59, ../sass/components/_product_node.scss */
     .node--product-display--full .group-right .field-name-field-pd-category {
       padding-bottom: .5em; }
-    /* line 50, ../sass/components/_product_node.scss */
+    /* line 62, ../sass/components/_product_node.scss */
     .node--product-display--full .group-right .field.field-name-field-pd-type {
       padding-bottom: 0.5em; }
-    /* line 53, ../sass/components/_product_node.scss */
+    /* line 65, ../sass/components/_product_node.scss */
     .node--product-display--full .group-right .field--name-commerce-price {
       font-size: 1.6em;
       margin: .5em 2em 0 0;
@@ -1320,52 +1333,52 @@ nav.block--menu-menu-pflichtmenu ul {
       position: static;
       margin: 0;
       padding: 3em 0 .6em; }
-    /* line 61, ../sass/components/_product_node.scss */
+    /* line 73, ../sass/components/_product_node.scss */
     .node--product-display--full .group-right .field.field--name-field-product-tax {
       padding-bottom: 0;
       font-size: .8em;
       float: left;
       clear: both;
       position: static; }
-    /* line 68, ../sass/components/_product_node.scss */
+    /* line 80, ../sass/components/_product_node.scss */
     .node--product-display--full .group-right .field-name-link-zzgl-versandkosten {
       font-size: 0.8em;
       padding: 0 0 1em;
       float: left;
       clear: both;
       position: static; }
-      /* line 74, ../sass/components/_product_node.scss */
+      /* line 86, ../sass/components/_product_node.scss */
       .node--product-display--full .group-right .field-name-link-zzgl-versandkosten p {
         margin: 0; }
-    /* line 78, ../sass/components/_product_node.scss */
+    /* line 90, ../sass/components/_product_node.scss */
     .node--product-display--full .group-right .commerce-add-to-cart {
       position: absolute;
       right: 1em;
       padding: 3.5em 0 2.5em;
       margin: 0; }
-      /* line 83, ../sass/components/_product_node.scss */
+      /* line 95, ../sass/components/_product_node.scss */
       .node--product-display--full .group-right .commerce-add-to-cart .form-submit {
         float: none;
         position: static; }
-    /* line 90, ../sass/components/_product_node.scss */
+    /* line 102, ../sass/components/_product_node.scss */
     .node--product-display--full .group-right .field-name-field-commerce-product,
     .node--product-display--full .group-right .field--name-field-commerce-product,
     .node--product-display--full .group-right .node-type-product-display .commerce-add-to-cart .form-submit {
       margin: 2em -0.5em 2em 0;
       box-shadow: 3px 2px 4px; }
-    /* line 95, ../sass/components/_product_node.scss */
+    /* line 107, ../sass/components/_product_node.scss */
     .node--product-display--full .group-right .commerce-add-to-cart input.wishlist,
     .node--product-display--full .group-right .in-wishlist {
       position: absolute !important;
       bottom: .8em !important;
       right: 0;
       margin: 0; }
-  /* line 102, ../sass/components/_product_node.scss */
+  /* line 114, ../sass/components/_product_node.scss */
   .node--product-display--full .group-footer {
     float: left;
     height: 5em;
     width: 100%; }
-    /* line 106, ../sass/components/_product_node.scss */
+    /* line 118, ../sass/components/_product_node.scss */
     .node--product-display--full .group-footer .field-name-commerce-price {
       font-size: 1.6em;
       margin: .5em 2em 0 0;
@@ -1374,29 +1387,29 @@ nav.block--menu-menu-pflichtmenu ul {
       position: static;
       margin: 0;
       padding: 1.2em 2em 0 0; }
-    /* line 115, ../sass/components/_product_node.scss */
+    /* line 127, ../sass/components/_product_node.scss */
     .node--product-display--full .group-footer .field.field-name-field-product-tax {
       padding-bottom: 3.1em;
       font-size: .8em; }
-    /* line 119, ../sass/components/_product_node.scss */
+    /* line 131, ../sass/components/_product_node.scss */
     .node--product-display--full .group-footer .field-name-link-zzgl-versandkosten {
       font-size: 0.8em;
       padding: 0 0 1em; }
-    /* line 123, ../sass/components/_product_node.scss */
+    /* line 135, ../sass/components/_product_node.scss */
     .node--product-display--full .group-footer .commerce-add-to-cart {
       float: left;
       padding: 1em 0; }
-      /* line 126, ../sass/components/_product_node.scss */
+      /* line 138, ../sass/components/_product_node.scss */
       .node--product-display--full .group-footer .commerce-add-to-cart .form-submit {
         float: none;
         position: static; }
-    /* line 133, ../sass/components/_product_node.scss */
+    /* line 145, ../sass/components/_product_node.scss */
     .node--product-display--full .group-footer .field-name-field-commerce-product,
     .node--product-display--full .group-footer .field--name-field-commerce-product,
     .node--product-display--full .group-footer .node-type-product-display .commerce-add-to-cart .form-submit {
       margin: 2em -0.5em 2em 0;
       box-shadow: 3px 2px 4px; }
-  /* line 147, ../sass/components/_product_node.scss */
+  /* line 159, ../sass/components/_product_node.scss */
   .node--product-display--full .field--name-field-product-image {
     float: left;
     margin: 1em 1em 1em 0; }
