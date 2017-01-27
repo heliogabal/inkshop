@@ -11,7 +11,7 @@ function inkshop_form_alter(&$form, &$form_state, $form_id) {
     case 'commerce_checkout_form_checkout' :
       $form['checkout_donate']['checkout_donate']['commerce_donate_amount']['und']['#options'] = array(
         '0' => 'Keine',
-	'1' => '1€',
+  '1' => '1€',
         '5' => '5€',
         '10' => '10€',
         '20' => '20€',
@@ -122,7 +122,7 @@ function inkshop_commerce_price_formatted_components($variables) {
 
   foreach ($variables['components'] as $name => $component) {
     if($name == 'base_price') {
-      continue;
+      //continue;
     }
     else {
       $rows[] = array(
@@ -139,7 +139,7 @@ function inkshop_commerce_price_formatted_components($variables) {
       'class' => array(drupal_html_class('component-type-' . $name)),
     );
     }
-    
+
   }
 
   return theme('table', array('rows' => $rows, 'attributes' => array('class' => array('commerce-price-formatted-components'))));
