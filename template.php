@@ -113,35 +113,35 @@ function inkshop_admin_paths_alter(&$paths) {
  * @param $variables
  *   Includes the 'components' array and original 'price' array.
  */
-function inkshop_commerce_price_formatted_components($variables) {
-  // Add the CSS styling to the table.
-  drupal_add_css(drupal_get_path('module', 'commerce_price') . '/theme/commerce_price.theme.css');
+// function inkshop_commerce_price_formatted_components($variables) {
+//   // Add the CSS styling to the table.
+//   drupal_add_css(drupal_get_path('module', 'commerce_price') . '/theme/commerce_price.theme.css');
 
-  // Build table rows out of the components.
-  $rows = array();
+//   // Build table rows out of the components.
+//   $rows = array();
 
-  foreach ($variables['components'] as $name => $component) {
-    if($name == 'base_price') {
-      //continue;
-    }
-    else {
-      $rows[] = array(
-      'data' => array(
-        array(
-          'data' => $component['title'],
-          'class' => array('component-title'),
-        ),
-        array(
-          'data' => $component['formatted_price'],
-          'class' => array('component-total'),
-        ),
-      ),
-      'class' => array(drupal_html_class('component-type-' . $name)),
-    );
-    }
+//   foreach ($variables['components'] as $name => $component) {
+//     if($name == 'base_price') {
+//       //continue;
+//     }
+//     else {
+//       $rows[] = array(
+//       'data' => array(
+//         array(
+//           'data' => $component['title'],
+//           'class' => array('component-title'),
+//         ),
+//         array(
+//           'data' => $component['formatted_price'],
+//           'class' => array('component-total'),
+//         ),
+//       ),
+//       'class' => array(drupal_html_class('component-type-' . $name)),
+//     );
+//     }
 
-  }
+//   }
 
-  return theme('table', array('rows' => $rows, 'attributes' => array('class' => array('commerce-price-formatted-components'))));
-}
+//   return theme('table', array('rows' => $rows, 'attributes' => array('class' => array('commerce-price-formatted-components'))));
+// }
 ?>
