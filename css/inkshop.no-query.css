@@ -1796,6 +1796,11 @@ html.js .throbbing {
     text-decoration: none;
     color: #292929;
     border-bottom: 3px solid #292929; }
+  /* line 124, ../sass/components/_search.scss */
+  .block--facetapi a.facetapi-limit-link {
+    padding: 0 1em 1em 0;
+    display: block;
+    margin-top: -1em; }
 
 /* line 38, ../../../../../../../../../../home/o4507778742.ftp/.rvm/gems/ruby-2.3.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
 .view-suedlink-abo article:after {

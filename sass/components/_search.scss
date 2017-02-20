@@ -121,4 +121,9 @@ html.js .throbbing {
     color: $black;
     border-bottom: 3px solid $black;
   }
+  a.facetapi-limit-link {
+    padding: 0 1em 1em 0;
+    display: block;
+    margin-top: -1em;
+  }
 }
