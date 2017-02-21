@@ -425,6 +425,11 @@ em, i {
       .l-content p {
         line-height: 1.5625; } }
 
+/* line 58, ../sass/base/_typography.scss */
+table.porto a:hover {
+  text-decoration: none;
+  color: #666; }
+
 /* Suedlink Aktuelles Heft + Neueste Produkte */
 /* line 3, ../sass/components/_blocks.scss */
 .view-display-id-block_1 li.views-fluid-grid-item,

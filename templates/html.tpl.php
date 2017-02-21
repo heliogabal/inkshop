@@ -54,6 +54,7 @@
   <html class="no-js" lang="<?php print $language->language; ?>" dir="<?php print $language->dir; ?>"<?php print $rdf_namespaces; ?>>
 <?php endif; ?>
 <head>
+  <meta name="google-site-verification" content="ghfyTegO6COrHi49GM1h6dTmnYosD-kOODlrDNlFvVY" />
   <?php print $head; ?>
   <title><?php print $head_title; ?></title>
   <script src="https://use.fonticons.com/a1e36c65.js"></script>
