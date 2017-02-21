@@ -35,7 +35,7 @@ html, body {
 .invoice-header {
   width: 540px;
   height: 100px;
-  top: 50px;
+  top: 70px;
   position: absolute;
   color: #000;
   text-align: left;
@@ -44,7 +44,7 @@ html, body {
 }
 .address {
   position: absolute;
-  top: 0px;
+  top: 10px;
   height: 60px;
   font-size: 8pt;
 }
@@ -73,7 +73,7 @@ html, body {
 .customer {
   position: relative;
   left: 0;
-  top: 130px;
+  top: 140px;
   margin-bottom: 120px;
 }
 .field--name-commerce-customer-billing .field__label {
