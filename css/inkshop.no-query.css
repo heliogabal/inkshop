@@ -368,9 +368,10 @@ strong, b {
 
 /* line 30, ../sass/base/_typography.scss */
 em, i {
-  font-variant: italic; }
+  font-style: italic;
+  font-weight: inherit !important; }
 
-/* line 34, ../sass/base/_typography.scss */
+/* line 35, ../sass/base/_typography.scss */
 .l-content {
   /*@include hyphens(auto);
   -ms-hyphenate-limit-lines: 2;
@@ -385,11 +386,11 @@ em, i {
   -webkit-hyphenate-limit-zone: 40px;
   -moz-hyphenate-limit-zone: 40px;
   hyphenate-limit-zone: 40px;*/ }
-  /* line 48, ../sass/base/_typography.scss */
+  /* line 49, ../sass/base/_typography.scss */
   .l-content p {
     line-height: 1.4375; }
 
-/* line 58, ../sass/base/_typography.scss */
+/* line 59, ../sass/base/_typography.scss */
 table.porto a:hover {
   text-decoration: none;
   color: #666; }
