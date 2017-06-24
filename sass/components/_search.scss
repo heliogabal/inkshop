@@ -40,6 +40,10 @@ html.js .form-autocomplete {
 html.js .throbbing {
   background-position: 100% -13px;
 }
+#autocomplete li:hover {
+	background: #fbb900;
+	color: #000;
+}
 .search {
   /*margin-left: 1em;*/
   input.form-text {
