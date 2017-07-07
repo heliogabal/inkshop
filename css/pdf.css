@@ -1,27 +1,29 @@
 html, body {
   font-family: Arial, sans-serif;
-  font-size: 12pt;
+  font-size: 11pt;
 }
 .invoice-invoiced {
   position: relative;
 }
 .main {
   width: 540px;
-  position: absolute;
-  left: 20px;
+  position: relative;
+  left: 0px;
 }
-/*.logobar {
-  width: 150px;
+.logobar {
+  width: 170px;
   position: absolute;
-  left: 540px;
+  left: 590px;
   top: 0px;
-}*/
+}
 .logobar img {
+  width: 170px !important;
+  margin-top:-70px;
+  /*position: absolute;
   display: block;
-  width: 160px !important;
-  position: absolute;
-  left: 590px !important;
-  top: -70px !important;
+
+  left: 550px !important;
+  top: -50px !important;*/
 }
 /*.header img {
   width: 269px;
@@ -35,12 +37,12 @@ html, body {
 .invoice-header {
   width: 540px;
   height: 100px;
-  top: 70px;
+  top: 60px;
   position: absolute;
   color: #000;
   text-align: left;
   z-index: 1000;
-  font-size: 9pt;
+  font-size: 8pt;
 }
 .address {
   position: absolute;
@@ -60,7 +62,7 @@ html, body {
 .invoice-footer {
   border-top: 0px solid #646464;
   width: 100%;
-  font-size: 10pt;
+  font-size: 9pt;
   color: #646464;
   text-align: center;
   padding-top: 4px;
@@ -69,13 +71,13 @@ html, body {
 .invoice-text {
   margin-top: 50px;
   line-height: 1.4;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .customer {
   position: relative;
   left: 0;
-  top: 140px;
+  top: 100px;
   margin-bottom: 120px;
   max-width: 300px;
 }
@@ -91,21 +93,21 @@ html, body {
 .invoice-header-date {
   position: absolute;
   top: 130px;
-  left: 340px;
+  left: 375px;
   font-size: 10pt;
   font-weight: bold;
 }
 .invoice-number {
   position: absolute;
   top: 150px;
-  left: 340px;
+  left: 375px;
   font-size: 10pt;
   font-weight: bold;
 }
 .ustid {
   position: absolute;
   top: 170px;
-  left: 340px;
+  left: 375px;
   font-size: 10pt;
   font-weight: bold;
 }
@@ -120,7 +122,7 @@ html, body {
 
 .line-items {
   margin-top: 80px;
-  min-height: 600px;
+  min-height: 550px;
 }
 .invoice-footer {
   position: absolute;
@@ -164,6 +166,9 @@ html, body {
   border-top: 2px solid #ddd;
   font-weight: bold;
   font-size: 11pt;
+  page-break-before: auto; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
+  page-break-after: auto; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
+  page-break-inside: avoid; /* or 'auto' */
 }
 td.component-title {
   text-align: right;
@@ -178,4 +183,10 @@ td.component-total {
 .invoice-canceled .order-total table {
   border: 2px solid #ddd;
   margin-top: 100px;
+}
+
+@media print {
+  img {
+    display: none !important;
+  }
 }
