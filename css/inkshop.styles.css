@@ -1812,23 +1812,28 @@ html.js .throbbing {
   background-position: 100% -13px; }
 
 /* line 43, ../sass/components/_search.scss */
+#autocomplete li:hover {
+  background: #fbb900;
+  color: #000; }
+
+/* line 47, ../sass/components/_search.scss */
 .search {
   /*margin-left: 1em;*/ }
-  /* line 45, ../sass/components/_search.scss */
+  /* line 49, ../sass/components/_search.scss */
   .search input.form-text {
     max-width: 150px; }
-  /* line 48, ../sass/components/_search.scss */
+  /* line 52, ../sass/components/_search.scss */
   .search .views-submit-button {
     float: right; }
-  /* line 51, ../sass/components/_search.scss */
+  /* line 55, ../sass/components/_search.scss */
   .search .compact-form-label {
     top: 12px;
     left: 10px;
     font-size: .9em; }
-  /* line 56, ../sass/components/_search.scss */
+  /* line 60, ../sass/components/_search.scss */
   .search .views-exposed-form .views-exposed-widget {
     padding-right: 0; }
-    /* line 58, ../sass/components/_search.scss */
+    /* line 62, ../sass/components/_search.scss */
     .search .views-exposed-form .views-exposed-widget .form-submit {
       margin-top: 0;
       background: url(../images/peter_burdette_search.png) no-repeat center #fbb900;
@@ -1837,7 +1842,7 @@ html.js .throbbing {
       padding: 0;
       height: 30px; }
 
-/* line 69, ../sass/components/_search.scss */
+/* line 73, ../sass/components/_search.scss */
 .block--current-search-search-results,
 .block--current-search-standard {
   background: #ebe9e7;
@@ -1845,26 +1850,26 @@ html.js .throbbing {
   float: left;
   width: 100%;
   position: relative; }
-  /* line 75, ../sass/components/_search.scss */
+  /* line 79, ../sass/components/_search.scss */
   .block--current-search-search-results .block__content,
   .block--current-search-standard .block__content {
     padding: 0 1em; }
-    /* line 77, ../sass/components/_search.scss */
+    /* line 81, ../sass/components/_search.scss */
     .block--current-search-search-results .block__content h3,
     .block--current-search-standard .block__content h3 {
       margin: .5em 0 0 0; }
-    /* line 80, ../sass/components/_search.scss */
+    /* line 84, ../sass/components/_search.scss */
     .block--current-search-search-results .block__content ul,
     .block--current-search-standard .block__content ul {
       margin-top: 0;
       padding-bottom: .5em; }
 
-/* line 87, ../sass/components/_search.scss */
+/* line 91, ../sass/components/_search.scss */
 .current-search-item ul {
   list-style: none;
   padding-left: 0; }
 
-/* line 92, ../sass/components/_search.scss */
+/* line 96, ../sass/components/_search.scss */
 .current-search-item-reset-filters a {
   display: inline-block;
   background: #fbb900;
@@ -1875,34 +1880,34 @@ html.js .throbbing {
   position: absolute;
   bottom: 1em;
   right: 1em; }
-  /* line 102, ../sass/components/_search.scss */
+  /* line 106, ../sass/components/_search.scss */
   .current-search-item-reset-filters a:hover {
     color: #fff; }
 
-/* line 106, ../sass/components/_search.scss */
+/* line 110, ../sass/components/_search.scss */
 .block--facetapi {
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
   -ms-border-radius: 2px;
   -o-border-radius: 2px;
   border-radius: 2px; }
-  /* line 108, ../sass/components/_search.scss */
+  /* line 112, ../sass/components/_search.scss */
   .block--facetapi ul li {
     margin-bottom: .5em;
     line-height: 1.2; }
-  /* line 112, ../sass/components/_search.scss */
+  /* line 116, ../sass/components/_search.scss */
   .block--facetapi ul li a {
     text-decoration: none;
     font-weight: 600;
     line-height: 1.5;
     border-bottom: 3px solid transparent; }
-  /* line 118, ../sass/components/_search.scss */
+  /* line 122, ../sass/components/_search.scss */
   .block--facetapi ul li a:hover {
     /*text-decoration: underline;*/
     text-decoration: none;
     color: #292929;
     border-bottom: 3px solid #292929; }
-  /* line 124, ../sass/components/_search.scss */
+  /* line 128, ../sass/components/_search.scss */
   .block--facetapi a.facetapi-limit-link {
     padding: 0 1em 1em 0;
     display: block;
