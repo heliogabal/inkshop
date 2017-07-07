@@ -11,14 +11,14 @@ html, body {
   left: 0px;
 }
 .logobar {
-  width: 170px;
+  width: 160px;
   position: absolute;
   left: 590px;
   top: 0px;
 }
 .logobar img {
-  width: 170px !important;
-  margin-top:-70px;
+  width: 160px !important;
+  margin-top:-60px;
   /*position: absolute;
   display: block;
 
@@ -186,6 +186,7 @@ td.component-total {
 }
 
 @media print {
+  .invoice-header, 
   img {
     display: none !important;
   }
