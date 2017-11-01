@@ -1,4 +1,4 @@
-.label-above {
+label-above {
   font-weight: 600;
 }
 .finanzhinweis {
@@ -53,8 +53,35 @@
     width: 30%;
     margin-top: 1em;
     position: relative;
-    .field-name-field-product-pdf {
-      padding-bottom: 1em;
+    .field--name-field-product-pdf {
+      margin-top: 2em;
+      .file {
+        display: block;
+        padding: 0 1em;
+        background: #fbb900;
+        border-radius: 2px;
+        &:hover {
+          color: #fff;
+          background: #a00;
+          a {
+            color:#fff;
+          }
+        }
+      }
+      a {
+        color: #292929;
+        display: inline-block;
+        padding: 1em 1em 1em 0;
+        width: calc(100% - 1em);
+        margin-right: -1em;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        &:hover {
+          color: #fff;
+        }
+      }
     }
     .field-name-field-pd-category {
       padding-bottom: .5em;
