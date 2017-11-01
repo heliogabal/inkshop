@@ -41,18 +41,27 @@ label-above {
     }
   }
   .group-left {
-    float: left;
-    width: 70%;
-    padding-right: 4em;
+    float: none;
+    width: 100%;
+    padding: 0;
     .field-name-field-product-image {
       margin-top: 1.5em;
     }
+    @include breakpoint($mobile, true) {
+      float: left;
+      width: 70%;
+      padding-right: 4em;
+    }
   }
   .group-right {
-    float: left;
-    width: 30%;
+    float: none;
+    width: 100%;
     margin-top: 1em;
     position: relative;
+    @include breakpoint($mobile, true) {
+      float: left;
+      width: 30%;
+    }
     .field--name-field-product-pdf {
       margin-top: 2em;
       .file {
